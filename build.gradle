@@ -5,6 +5,7 @@
 plugins {
     id 'java'
     id "com.palantir.git-version" version "0.12.3"
+    id "org.asciidoctor.jvm.convert" version "3.2.0"
     id 'org.asciidoctor.jvm.pdf' version '3.2.0'
     id 'org.asciidoctor.jvm.gems' version '3.2.0'
 }
@@ -24,6 +25,7 @@ dependencies {
 asciidoctorPdf {
   dependsOn asciidoctorGemsPrepare
   asciidoctorj {
+    logDocuments true
     requires 'rouge'
     baseDirFollowsSourceFile()
     sourceDir file('src/main/adoc')
@@ -32,12 +34,23 @@ asciidoctorPdf {
     }
     languages 'de'
     outputDir file('build/pdf')
-    attributes 'endpoint-url': 'https://cardsplus.info',
-        'source-highlighter': 'rouge',
-        'imagesdir': 'images',
-        'toc': 'left',
-        'icons': 'font',
-        'idprefix': '',
-        'idseparator': '-'
+    options doctype: 'book'
+    attributes 'source-highlighter': 'rouge'
+    attributes 'icons': 'font'
+    attributes 'toc': 'left'
+    attributes 'sectlink': true
+    attributes 'sectanchors': true
+    attributes 'numbered': true
+    attributes 'idprefix': ''
+    attributes 'idseparator': '-'
+    attributes 'title': description
+    attributes 'author': 'Robert Bruckbauer'
+    attributes 'email':  'bruckbauer@gmx.at'
+    attributes 'website': 'https://cardsplus.info'
+    attributes 'revnumber': version
+    attributes 'revdate': new Date().format('yyyy/MM/dd')
+    attributes 'revyear': new Date().format('yyyy')
+    attributes 'imagesdir': 'images'
+    attributes 'pdf-stylesdir': file('src/main/adoc/styles')
   }
 }
