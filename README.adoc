@@ -1,1 +1,5 @@
-tbd
+https://asciidoctor.org/
+
+https://asciidoctor.github.io/asciidoctor-gradle-plugin/development-3.x/user-guide/
+
+https://github.com/asciidoctor/asciidoctor-gradle-plugin
