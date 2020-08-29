@@ -1,0 +1,7 @@
+/*
+ * https://guides.gradle.org/creating-new-gradle-builds/
+ */
+ 
+plugins {
+    id 'base'
+}
