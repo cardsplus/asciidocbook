@@ -1,7 +1,42 @@
 /*
  * https://guides.gradle.org/creating-new-gradle-builds/
  */
- 
+
 plugins {
-    id 'base'
+    id 'java'
+    id "com.palantir.git-version" version "0.12.3"
+    id 'org.asciidoctor.jvm.pdf' version '3.2.0'
+    id 'org.asciidoctor.jvm.gems' version '3.2.0'
+}
+
+description = 'cards+ asciidoc book'
+version = gitVersion();
+
+repositories {
+    jcenter()
+    ruby.gems()
+}
+
+dependencies {
+  asciidoctorGems 'rubygems:rouge:3.22.0'
+}
+
+asciidoctorPdf {
+  dependsOn asciidoctorGemsPrepare
+  asciidoctorj {
+    requires 'rouge'
+    attributes 'endpoint-url': 'https://cardsplus.info',
+        'source-highlighter': 'rouge',
+        'imagesdir': 'images',
+        'toc': 'left',
+        'icons': 'font',
+        'idprefix': '',
+        'idseparator': '-'
+  }
+  baseDirFollowsSourceFile()
+  sourceDir  file('src/main/adoc')
+  sources {
+    include 'book.adoc'
+  }
+  outputDir file('build/pdf')
 }
