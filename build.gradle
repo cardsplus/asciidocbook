@@ -25,6 +25,13 @@ asciidoctorPdf {
   dependsOn asciidoctorGemsPrepare
   asciidoctorj {
     requires 'rouge'
+    baseDirFollowsSourceFile()
+    sourceDir file('src/main/adoc')
+    sources {
+      include 'book.adoc'
+    }
+    languages 'de'
+    outputDir file('build/pdf')
     attributes 'endpoint-url': 'https://cardsplus.info',
         'source-highlighter': 'rouge',
         'imagesdir': 'images',
@@ -33,10 +40,4 @@ asciidoctorPdf {
         'idprefix': '',
         'idseparator': '-'
   }
-  baseDirFollowsSourceFile()
-  sourceDir  file('src/main/adoc')
-  sources {
-    include 'book.adoc'
-  }
-  outputDir file('build/pdf')
 }
