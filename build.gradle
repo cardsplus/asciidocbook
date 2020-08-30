@@ -25,6 +25,14 @@ dependencies {
 asciidoctorj {
   logLevel 'INFO'
   requires 'rouge'
+  modules {
+    diagram { 
+      version '2.0.2'
+    }
+    pdf { 
+      version '1.5.3'
+    }
+  }
   options doctype: 'book'
   attributes 'source-highlighter': 'rouge'
   attributes 'icons': 'font'
