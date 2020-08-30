@@ -4,6 +4,7 @@
 :appendix-caption: Anhang
 :chapter-label: 
 :toc-title: Inhalt
+:icons: font
 = Lorem ipsum
 
 [preface]
@@ -41,11 +42,113 @@ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit ame
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 _Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua_.
-At vero eos et accusam et justo duo dolores et ea rebum_.
+At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, _sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat_, sed diam voluptua.
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+== Proportionale Schrift
+
+[abstract]
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+ At vero eos et accusam et justo duo dolores et ea rebum.
+ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+ At vero eos et accusam et justo duo dolores et ea rebum.
+ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+monospace `constrained` & ``un``constrained
+
+monospace bold `*constrained*` & ``**un**``constrained
+
+monospace italic `_constrained_` & ``__un__``constrained
+
+monospace bold italic `*_constrained_*` & ``**__un__**``constrained
+
+`{cpp}` is valid syntax in the programming language by the same name.
+
+`+WHERE id <= 20 AND value = "{name}"+` is a SQL WHERE clause.
+
+.Lorem ipsum
+----
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+----
+
+At vero eos et accusam et justo duo dolores et ea rebum.
+
+----
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+----
+
+== Hervorhebungen
+
+[abstract]
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+=== Hochgestellt
+
+^Lorem&nbsp;ipsum^ dolor sit amet, ^conse^tetur sadipscing elitr, sed diam ^nonumy^ eirmod tempor invidunt ut labore et dolore magna aliqu^yam^ erat, sed diam vo^lup^tua.
+
+=== Tiefgestellt
+
+~Lorem&nbsp;ipsum~ dolor sit amet, ~conse~tetur sadipscing elitr, sed diam ~nonumy~ eirmod tempor invidunt ut labore et dolore magna aliqu~yam~ erat, sed diam vo~lup~tua.
+
+=== Beispiel
+
+.Lorem ipsum
+====
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+====
+
+At vero eos et accusam et justo duo dolores et ea rebum.
+
+====
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+====
+
+=== Kasten
+
+.Lorem ipsum
+****
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+****
+
+At vero eos et accusam et justo duo dolores et ea rebum.
+
+****
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+****
+
+=== Zitat
+
+[,Max Mustermann]
+____
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+____
+
+=== Vorschlag
+
+TIP: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+=== Information
+
+NOTE: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+=== Wichtige Information
+
+IMPORTANT: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+=== Sehr wichtige Information
+
+WARNING: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+=== Kritische Information
+
+CAUTION: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
 == Struktur
 
@@ -67,6 +170,114 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 ====== Ebene 5
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+== Listen
+
+[abstract]
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+=== Ungeordnet
+
+.Eine Ebene
+====
+* Edgar Allen Poe
+* Sheri S. Tepper
+* Bill Bryson
+====
+
+.Fünf Ebenen
+====
+* Step 1
+** Step 1.1
+*** Step 1.1.1
+**** Step 1.1.1.1
+***** Step 1.1.1.1.1
+***** Step 1.1.1.1.2
+***** Step 1.1.1.1.3
+**** Step 1.1.1.2
+**** Step 1.1.1.3
+*** Step 1.1.2
+*** Step 1.1.3
+** Step 1.2
+** Step 1.3
+* Step 2
+====
+
+.Zweite Ebene geordnet
+====
+* Step 1
+* Step 2
+.. Step 2a
+.. Step 2b
+* Step 3
+====
+
+=== Geordnet
+
+.Eine Ebene
+====
+. Step 1
+. Step 2
+. Step 3
+====
+
+.Fünf Ebenen
+====
+. Step 1
+.. Step 1.1
+... Step 1.1.1
+.... Step 1.1.1.1
+..... Step 1.1.1.1.1
+..... Step 1.1.1.1.2
+..... Step 1.1.1.1.3
+.... Step 1.1.1.2
+.... Step 1.1.1.3
+... Step 1.1.2
+... Step 1.1.3
+.. Step 1.2
+.. Step 1.3
+. Step 2
+====
+
+.Zweite Ebene ungeordnet
+====
+. Step 1
+. Step 2
+** Step 2a
+** Step 2b
+. Step 3
+====
+
+=== Aufzählung
+
+.vertikal
+====
+Lorem ipsum::
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos::
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+====
+
+.horizontal
+====
+[horizontal]
+Lorem ipsum::
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos::
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+====
+
+.numeriert
+====
+[qanda]
+Lorem ipsum::
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos::
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+====
 
 == Tabellen
 
