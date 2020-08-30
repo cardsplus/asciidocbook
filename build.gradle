@@ -37,6 +37,7 @@ asciidoctorj {
   attributes 'source-highlighter': 'rouge'
   attributes 'icons': 'font'
   attributes 'toc': 'left'
+  attributes 'toclevels': '3'
   attributes 'sectlink': true
   attributes 'sectanchors': true
   attributes 'numbered': true
@@ -55,7 +56,6 @@ asciidoctorj {
 asciidoctor {
   build.dependsOn it
   dependsOn asciidoctorGemsPrepare
-  baseDirFollowsSourceFile()
   sourceDir file('doc')
   sources {
     include 'index.adoc'
@@ -65,10 +65,12 @@ asciidoctor {
   outputs.upToDateWhen { false }
 }
 
+pdfThemes.local 'a4', { themeDir = 'etc' }
 asciidoctorPdf {
   build.dependsOn it
   dependsOn asciidoctorGemsPrepare
-  baseDirFollowsSourceFile()
+  theme 'a4'
+  fontsDir file('fonts')
   sourceDir file('doc')
   sources {
     include 'index.adoc'

@@ -7,9 +7,9 @@ font:
     merge: false
     catalog:
         Roboto:
-            normal: Roboto-Thin.ttf
+            normal: Roboto-Regular.ttf
             bold: Roboto-Bold.ttf
-            italic: Roboto-ThinItalic.ttf
+            italic: Roboto-Italic.ttf
             bold_italic: Roboto-BoldItalic.ttf
 base:
     align: justify
@@ -28,4 +28,4 @@ footer:
     recto_content:
         right: '{chapter-title} | *{page-number}*'
     verso_content:
-        left: '*{page-number}* | {chapter-title}
+        left: '*{page-number}* | {chapter-title}'
