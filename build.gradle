@@ -1,5 +1,6 @@
 /*
  * https://guides.gradle.org/creating-new-gradle-builds/
+ * https://github.com/asciidoctor/asciidoctor-gradle-plugin
  */
 
 plugins {
