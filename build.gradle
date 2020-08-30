@@ -36,8 +36,6 @@ asciidoctorj {
   options doctype: 'book'
   attributes 'source-highlighter': 'rouge'
   attributes 'icons': 'font'
-  attributes 'toc': 'left'
-  attributes 'toclevels': '3'
   attributes 'sectlink': true
   attributes 'sectanchors': true
   attributes 'numbered': true
@@ -56,11 +54,13 @@ asciidoctorj {
 asciidoctor {
   build.dependsOn it
   dependsOn asciidoctorGemsPrepare
+  attributes 'toc': 'left'
+  attributes 'toclevels': '5'
+  languages 'de'
   sourceDir file('doc')
   sources {
     include 'index.adoc'
   }
-  languages 'de'
   outputDir file('build/html')
   outputs.upToDateWhen { false }
 }
@@ -69,13 +69,15 @@ pdfThemes.local 'a4', { themeDir = 'etc' }
 asciidoctorPdf {
   build.dependsOn it
   dependsOn asciidoctorGemsPrepare
+  attributes 'toc': 'left'
+  attributes 'toclevels': '3'
+  languages 'de'
   theme 'a4'
   fontsDir file('fonts')
   sourceDir file('doc')
   sources {
     include 'index.adoc'
   }
-  languages 'de'
   outputDir file('build/pdf')
   outputs.upToDateWhen { false }
 }
