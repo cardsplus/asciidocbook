@@ -13,10 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    #
     - name: Set up java
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
+    #
     - name: Set up cache
       uses: actions/cache@v2
       with:
@@ -25,7 +27,15 @@ jobs:
           ~/build/.asciidoctorGems
         key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
         restore-keys: ${{ runner.os }}-gradle    
+    #
     - name: Set up gradle
       run: chmod +x gradlew
+    #
     - name: Build with Gradle
       run: ./gradlew build
+    #
+    - name: Deploy preview
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir:  build/html/de
