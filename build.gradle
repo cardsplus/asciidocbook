@@ -24,11 +24,12 @@ dependencies {
 
 asciidoctorPdf {
   dependsOn asciidoctorGemsPrepare
+  outputs.upToDateWhen { false }
   asciidoctorj {
     logDocuments true
     requires 'rouge'
     baseDirFollowsSourceFile()
-    sourceDir file('src/main/adoc')
+    sourceDir file('doc')
     sources {
       include 'book.adoc'
     }
@@ -51,6 +52,8 @@ asciidoctorPdf {
     attributes 'revdate': new Date().format('yyyy/MM/dd')
     attributes 'revyear': new Date().format('yyyy')
     attributes 'imagesdir': 'images'
-    attributes 'pdf-stylesdir': file('src/main/adoc/styles')
+    //attributes 'pdf-fontsdir': file('etc/fonts')
+    //attributes 'pdf-stylesdir': file('etc')
+    //attributes 'pdf-theme': 'book'
   }
 }

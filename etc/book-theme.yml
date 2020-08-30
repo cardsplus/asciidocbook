@@ -1,0 +1,31 @@
+extends: base
+page:
+    layout: portrait
+    margin: [0.75in, 1in, 0.75in, 1in]
+    size: A4
+font:
+    merge: false
+    catalog:
+        Roboto:
+            normal: Roboto-Thin.ttf
+            bold: Roboto-Bold.ttf
+            italic: Roboto-ThinItalic.ttf
+            bold_italic: Roboto-BoldItalic.ttf
+base:
+    align: justify
+    font_family: Roboto
+    font_size: 10.5
+header:
+    height: 0.5in
+    line_height: 1
+    recto_content:
+        center: '{document-title}'
+    verso_content:
+        center: '{document-title}'
+footer:
+    height: 0.5in
+    line_height: 1
+    recto_content:
+        right: '{chapter-title} | *{page-number}*'
+    verso_content:
+        left: '*{page-number}* | {chapter-title}
