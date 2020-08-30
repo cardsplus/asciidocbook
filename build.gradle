@@ -22,38 +22,48 @@ dependencies {
   asciidoctorGems 'rubygems:rouge:3.22.0'
 }
 
+asciidoctorj {
+  logLevel 'INFO'
+  requires 'rouge'
+  options doctype: 'book'
+  attributes 'source-highlighter': 'rouge'
+  attributes 'icons': 'font'
+  attributes 'toc': 'left'
+  attributes 'sectlink': true
+  attributes 'sectanchors': true
+  attributes 'numbered': true
+  attributes 'idprefix': ''
+  attributes 'idseparator': '-'
+  attributes 'title': description
+  attributes 'author': 'Robert Bruckbauer'
+  attributes 'email':  'bruckbauer@gmx.at'
+  attributes 'website': 'https://cardsplus.info'
+  attributes 'revnumber': version
+  attributes 'revdate': new Date().format('yyyy/MM/dd')
+  attributes 'revyear': new Date().format('yyyy')
+  attributes 'imagesdir': 'images'
+}
+
+asciidoctor {
+  dependsOn asciidoctorGemsPrepare
+  baseDirFollowsSourceFile()
+  sourceDir file('doc')
+  sources {
+    include 'book.adoc'
+  }
+  languages 'de'
+  outputDir file('build/html')
+  outputs.upToDateWhen { false }
+}
+
 asciidoctorPdf {
   dependsOn asciidoctorGemsPrepare
-  outputs.upToDateWhen { false }
-  asciidoctorj {
-    logDocuments true
-    requires 'rouge'
-    baseDirFollowsSourceFile()
-    sourceDir file('doc')
-    sources {
-      include 'book.adoc'
-    }
-    languages 'de'
-    outputDir file('build/pdf')
-    options doctype: 'book'
-    attributes 'source-highlighter': 'rouge'
-    attributes 'icons': 'font'
-    attributes 'toc': 'left'
-    attributes 'sectlink': true
-    attributes 'sectanchors': true
-    attributes 'numbered': true
-    attributes 'idprefix': ''
-    attributes 'idseparator': '-'
-    attributes 'title': description
-    attributes 'author': 'Robert Bruckbauer'
-    attributes 'email':  'bruckbauer@gmx.at'
-    attributes 'website': 'https://cardsplus.info'
-    attributes 'revnumber': version
-    attributes 'revdate': new Date().format('yyyy/MM/dd')
-    attributes 'revyear': new Date().format('yyyy')
-    attributes 'imagesdir': 'images'
-    //attributes 'pdf-fontsdir': file('etc/fonts')
-    //attributes 'pdf-stylesdir': file('etc')
-    //attributes 'pdf-theme': 'book'
+  baseDirFollowsSourceFile()
+  sourceDir file('doc')
+  sources {
+    include 'book.adoc'
   }
+  languages 'de'
+  outputDir file('build/pdf')
+  outputs.upToDateWhen { false }
 }
