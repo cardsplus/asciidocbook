@@ -12,7 +12,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    #
+    - name: Set up git
+      uses: actions/checkout@v2
     #
     - name: Set up java
       uses: actions/setup-java@v1
