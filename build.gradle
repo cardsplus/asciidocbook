@@ -58,7 +58,7 @@ asciidoctor {
   baseDirFollowsSourceFile()
   sourceDir file('doc')
   sources {
-    include 'book.adoc'
+    include 'index.adoc'
   }
   languages 'de'
   outputDir file('build/html')
@@ -71,7 +71,7 @@ asciidoctorPdf {
   baseDirFollowsSourceFile()
   sourceDir file('doc')
   sources {
-    include 'book.adoc'
+    include 'index.adoc'
   }
   languages 'de'
   outputDir file('build/pdf')
