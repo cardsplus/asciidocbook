@@ -4,7 +4,7 @@
  */
 
 plugins {
-    id 'java'
+    id 'base'
     id "com.palantir.git-version" version "0.12.3"
     id "org.asciidoctor.jvm.convert" version "3.2.0"
     id 'org.asciidoctor.jvm.pdf' version '3.2.0'
@@ -26,6 +26,7 @@ dependencies {
 asciidoctorj {
   logLevel 'INFO'
   requires 'rouge'
+  requires file('src/main/ruby/glob-include-processor.rb')
   modules {
     diagram { 
       version '2.0.2'
@@ -36,19 +37,18 @@ asciidoctorj {
   }
   options doctype: 'book'
   attributes 'source-highlighter': 'rouge'
-  attributes 'icons': 'font'
   attributes 'sectlink': true
   attributes 'sectanchors': true
   attributes 'numbered': true
   attributes 'idprefix': ''
   attributes 'idseparator': '-'
-  attributes 'title': description
   attributes 'author': 'Robert Bruckbauer'
   attributes 'email':  'bruckbauer@gmx.at'
   attributes 'website': 'https://cardsplus.info'
   attributes 'revnumber': version
   attributes 'revdate': new Date().format('yyyy/MM/dd')
   attributes 'revyear': new Date().format('yyyy')
+  attributes 'revremark': description
   attributes 'imagesdir': 'images'
 }
 
@@ -60,8 +60,9 @@ asciidoctor {
   languages 'de'
   sourceDir file('doc')
   sources {
-    include 'index.adoc'
+    include 'index.adoc', 'book.adoc'
   }
+  baseDirFollowsSourceDir()
   outputDir file('build/html')
   outputs.upToDateWhen { false }
 }
@@ -77,8 +78,9 @@ asciidoctorPdf {
   fontsDir file('fonts')
   sourceDir file('doc')
   sources {
-    include 'index.adoc'
+    include 'index.adoc', 'book.adoc'
   }
+  baseDirFollowsSourceDir()
   outputDir file('build/pdf')
   outputs.upToDateWhen { false }
 }

@@ -1,0 +1,36 @@
+:table-caption: Tab.
+:example-caption: Bsp.
+:figure-caption: Abb.
+:appendix-caption: Anhang
+:chapter-label: 
+:toc-title: Inhalt
+:icons: font
+= Titel
+
+include::0v/vorwort.adoc[]
+
+include::01/kapitel.adoc[]
+
+include::02/kapitel.adoc[]
+
+include::03/kapitel.adoc[]
+
+include::04/kapitel.adoc[]
+
+include::05/kapitel.adoc[]
+
+include::9z/danksagung.adoc[]
+
+include::aa/anhang.adoc[]
+
+include::ab/anhang.adoc[]
+
+[glossary]
+== Glossar
+
+include::term/*.adoc[]
+
+[bibliography]
+== Referenzen
+
+include::ref/*.adoc[]
