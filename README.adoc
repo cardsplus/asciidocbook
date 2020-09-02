@@ -18,6 +18,8 @@ https://github.com/asciidoctor/asciidoctor-extensions-lab
 
 == Github
 
+https://docs.github.com/en/github/building-a-strong-community/adding-a-license-to-a-repository
+
 https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork
 
 https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork
