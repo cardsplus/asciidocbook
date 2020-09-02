@@ -1,16 +1,16 @@
 [preface]
 == Vorwort
 
-Seit dem Jahr 1990 bin ich leiden­schaft­licher Soft­ware-Ent­wick­ler.
-Mein Hobby ist Beruf.
-Der Schwer­punkt meiner Tätig­kei­ten in den Pro­jek­ten ist der Ent­wurf und die Umset­zung kom­plexer IT-Systeme.
-Meine Rollen waren Ent­wick­ler, Pro­jektleiter, IT-Berater und Produktverantwortlicher.
-Seitdem immer mehr Auf­trag­geber auf agile Ent­wick­lungs­pro­zesse ­set­zen, hat sich für mich vieles geän­dert.
-
-In der Entwicklung von Software haben sich eine ganze Reihe von Ideen und Konzepte durchgesetzt.
+Die Software-Industrie ist im Wandel.
+Die Herausforderungen durch _Cloud_, _Big Data_ und das Internet der Dinge erfordern eine Agilität und Transparenz bei der Entwicklung von Software.
+Im Kern der digitalen Transformation geht es darum, dass Unternehmen und Organisationen ihre vorhandenen Prozesse und Daten digital verfügbar machen.
+Die Konsequenz ist, dass alle Unternehmen zu Softwareentwicklern werden.
+Die Entwicklung von Software ist nicht mehr beschränkt auf die IT-Branche.
+Bei Software wird es künftig häufiger um individuelle Lösungen statt um Produkte gehen.
+Geschwindigkeit ist wichtig.
+Kosten und Qualität bilden ein Spannungsfeld, in dem sich eine ganze Reihe von Ideen und Konzepte etabliert haben.
 Einige davon haben direkten Einfluss auf die Dokumentation. 
 
-[quanda]
 ****
 Clean Code::
 
@@ -29,10 +29,26 @@ Docs-as-Code::
 tbd Asciidoc, Wiki
 ****
 
-Dokumentation ist ein Thema in jedem Entwicklungsprojekt.
-Sie ist wie die Software ein fixer Bestandteil des Produktes.
+Dokumentation ist ein Thema in *jedem* Entwicklungsprojekt.
+Information ist das Ziel, Dokumentation ist der Weg.
+Abhängig von der Organisation und vom Entwicklungsprozess gibt es Pflichtenhefte, Studien, Grob- und Fachfeinkonzepte, fachliche und technische Spezifikationen, Richtlinien, Anleitungen, Entscheidungen, Anweisungen, Skizzen, Handbücher, um nur die bekanntesten Dokumenttypen zu nennen.
+Sie unterscheiden sich
+
+* im Zeitpunkt der Erstellung.
+
+* in der Lebensdauer.
+
+* in der Zielgruppe.
+
+* in der Art des Inhaltes.
+
+* in der Komplexität.
+
+Dokumentation ist wie die Software ein fixer Bestandteil des Produktes.
+Ändert sich die Software, muss auch ein Teil der Dokumentation angepasst werden oder wird ungültig.
 In einem agilen Umfeld muss daher die Tätigkeit des Dokumentierens eine Aufgabe für das ganze Team sein.
 Genau wie beim Programmieren von Software gibt es beim Dokumentieren den Anspruch, Ergebnisse mit guter Qualität zu produzieren.
+
 Ein im Jahr 2014 gestar­tetes agiles Ent­wick­lungs­pro­jekt hatte das Ziel, das IT-System der Trans­port­leitungen der Deutschen Bahn zu moderni­sieren.
 Meine dort gewon­nenen Erkennt­nisse führ­ten zum ersten Ent­wurf von `cards+` als Ansatz für inkre­men­telles Doku­men­tieren.
 Die Prinzipien und Praktiken von `cards+` halfen uns damals, Wissen langfristig und in guter Qualität zu erhalten.
@@ -70,3 +86,4 @@ Die Karten des Kartenhauses bilden eine Pyramide aus aufeinander aufbauenden Ebe
 Das Kartenhaus steht darum für die Idee der Vermittlung von Wissen vom Groben ins Feine (engl. _top down_).
 
 Mit `cards+` haben wir die »besseren Karten«.
+
