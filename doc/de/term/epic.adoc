@@ -1,1 +1,4 @@
-Epic:: Lorem ipsum dolor sit amet.
+Epic::
+
+[#Epic]
+Lorem ipsum dolor sit amet.
