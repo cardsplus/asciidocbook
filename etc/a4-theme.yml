@@ -1,4 +1,4 @@
-extends: base
+extends: default
 page:
     layout: portrait
     margin: [0.75in, 1in, 0.75in, 1in]
@@ -11,10 +11,17 @@ font:
             bold: Roboto-Bold.ttf
             italic: Roboto-Italic.ttf
             bold_italic: Roboto-BoldItalic.ttf
+        RobotoMono:
+            normal: RobotoMono-Regular.ttf
+            bold: RobotoMono-Bold.ttf
+            italic: RobotoMono-Italic.ttf
+            bold_italic: RobotoMono-BoldItalic.ttf
 base:
-    align: justify
     font_family: Roboto
-    font_size: 10.5
+code:
+    font_family: RobotoMono
+literal:
+    font_family: RobotoMono
 header:
     height: 0.5in
     line_height: 1
