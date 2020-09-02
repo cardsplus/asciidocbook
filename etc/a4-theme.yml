@@ -18,6 +18,8 @@ font:
             bold_italic: RobotoMono-BoldItalic.ttf
 base:
     font_family: Roboto
+code:
+    font_family: RobotoMono
 literal:
     font_family: RobotoMono
 header:
