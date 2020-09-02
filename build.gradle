@@ -60,7 +60,7 @@ asciidoctor {
   languages 'de'
   sourceDir file('doc')
   sources {
-    include 'index.adoc', 'book.adoc'
+    include 'index.adoc'
   }
   baseDirFollowsSourceDir()
   outputDir file('build/html')
@@ -78,7 +78,7 @@ asciidoctorPdf {
   fontsDir file('fonts')
   sourceDir file('doc')
   sources {
-    include 'index.adoc', 'book.adoc'
+    include 'index.adoc'
   }
   baseDirFollowsSourceDir()
   outputDir file('build/pdf')
