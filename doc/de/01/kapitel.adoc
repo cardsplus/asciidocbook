@@ -1,13 +1,13 @@
 == Schriftstile
 
-=== Normale Schrift
-
 [abstract]
 Text kann unterschiedliche Schriftstile haben.
 Der Schriftstil wird bestimmt durch die
 Schriftbreite (z.B. schmal oder breit),
 Schriftlage (z.B. normal oder kursiv) und
 Schriftstärke (z.B. normal oder fett). 
+
+=== Normale Schrift
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 At vero eos et accusam et justo duo dolores et ea rebum.
