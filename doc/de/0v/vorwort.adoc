@@ -14,19 +14,19 @@ Einige davon haben direkten Einfluss auf die Dokumentation.
 ****
 Clean Code::
 
-tbd Praktiken und Prinzipien, Spielregeln
+#tbd# Praktiken und Prinzipien, Spielregeln
 
 Domain-Driven Design::
 
-tbd gemeinsame Sprache, strategisches und taktisches Design
+#tbd# gemeinsame Sprache, strategisches und taktisches Design
 
 Agilität::
 
-tbd Manifest agiler Software-Entwicklung, Vision, Backlog, Story
+#tbd# Manifest agiler Software-Entwicklung, Vision, Backlog, Story
 
 Docs-as-Code::
 
-tbd Asciidoc, Wiki
+#tbd# Asciidoc, Wiki
 ****
 
 Dokumentation ist ein Thema in *jedem* Entwicklungsprojekt.
@@ -54,36 +54,9 @@ Meine dort gewon­nenen Erkennt­nisse führ­ten zum ersten Ent­wurf von `card
 Die Prinzipien und Praktiken von `cards+` halfen uns damals, Wissen langfristig und in guter Qualität zu erhalten.
 Mit »uns« ist dabei die gesamte Projektorganisation und die interessierten Parteien des Auftraggebers gemeint. 
 
-tbd `cards+` ist einfach.
+#tbd# `cards+` ist einfach.
 
-tbd `cards+` ist praktisch.
-
-`cards+` als Name der agilen Methode hat sich aus der ursprünglichen Idee der Karten (engl. _cards_) von XP entwickelt.
-Das Plus-Zeichen steht für die Weiterentwicklung der Idee der Karten.
-
-[,RON JEFFRIES]
-____
-User stories are written on cards.
-The card does not contain all the information that makes up the requirement.
-Instead, the card has just enough text to identify the requirement, and to remind everyone what the story is.
-The card is a token representing the requirement.
-It’s used in planning.
-Notes are written on it, reflecting priority and cost.
-It’s often handed to the programmers when the story is scheduled to be implemented, and given back to the customer when the story is complete.
-____
-
-Die Karte ist eine Metapher für eine dokumentierte Information.
-Jede Karte hat einen Wert.
-Jede Karte hat eine Bedeutung.
-Die Verwendung einer Karte unterliegt bekannten Spielregeln.
-
-Das Kartenhaus ist eine Metapher für die Qualität.
-Es ist eine wesentliche Eigenschaft von `cards+`, dass die Bausteine wie die Karten eines Kartenhauses (engl. _house of cards_) aufeinander aufbauen.
-Jede Karte muss in einer bestimmten Reihenfolge in einer festgelegten Art und Weise aufgestellt werden, um am Ende ein vollständiges Kartenhaus zu bilden.
-Es ist nur dann stabil und vollständig, wenn alle Karten vorhanden sind.
-Fehlt eine Karte, dann stürzt das Kartenhaus in sich zusammen.
-Die Karten des Kartenhauses bilden eine Pyramide aus aufeinander aufbauenden Ebenen.
-Das Kartenhaus steht darum für die Idee der Vermittlung von Wissen vom Groben ins Feine (engl. _top down_).
+#tbd# `cards+` ist praktisch.
 
 Mit `cards+` haben wir die »besseren Karten«.
 

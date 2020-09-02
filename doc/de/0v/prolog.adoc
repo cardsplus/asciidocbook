@@ -1,0 +1,73 @@
+[preface]
+== Prolog: Der Reise-Butler
+
+=== Die Idee
+
+Moritz sitzt in der Bahn und sieht aus dem Fenster.
+Er hat gerade keine Lust, sich mit etwas Sinnvollem zu beschäftigen.
+Schlafen geht auch nicht, weil er einfach nicht müde genug ist.
+Außerdem ist es im Großraumwagen zu hell und zu laut.
+Sein Blick schweift in die Ferne und bleibt an einem seltsamen Gebäude hängen.
+
+[abstract]
+«Welchen Zweck hat dieses Gebäude?», denkt er sich.
+
+Einen Moment später ist es durch eine bewaldete Hügelkette verdeckt.
+Weil er eh gerade nichts Besseres zu tun hat, nimmt er sein Smartphone in die Hand. 
+Er will herausfinden, was das für ein Gebäude ist.
+
+[abstract]
+«Welchen Begriff soll ich eingeben?», überlegt er.
+
+Kino, Einkaufszentrum, Museum, er hat ja keine Ahnung, wozu dieses seltsame Gebäude verwendet wird.
+Die Suche nach “seltsames Gebäude Frankfurt” bringt - wenig überraschend - keine wirklich nützliche Erkenntnis. Er beschließt, Google Maps zu verwenden, um das Gebäude zu finden.
+Im Reiseplan, der im Zug für Reisende verteilt wird, kann er nachlesen, dass er sich gerade irgendwo zwischen Frankfurt und Fulda befindet.
+Aber auch das hilft nicht wirklich.
+Recht schnell verliert er das Interesse an der Suche.
+
+[abstract]
+«Pah, echt umständlich und anstrengend, diese Sucherei im Internet.», ärgert er sich und legt das Smartphone zur Seite.
+
+Völlig vergessen kann Moritz diesen Vorfall nicht.
+Es ist ja auch nicht zum ersten Mal, dass er sich während einer längeren Fahrt mit dem Zug oder Auto fragt, welche spannenden Dinge da an ihm vorbeiziehen.
+
+=== Erste Recherche
+
+Eines Abends sitzt er allein in seinem Hotelzimmer.
+Da fällt ihm die Geschichte mit dem seltsamen Gebäude wieder ein.
+Er schnappt sich sein Tablet und gibt “android app berg kirche poi erkennen”.
+ 
+.Suchergebnis bei Google (2017)
+#tbd# Bild
+
+Am Ende von Moritz‘ Recherche ist klar, dass es offensichtlich noch keine App gibt, die sein konkretes Problem löst.
+Er bekommt aber den Eindruck, dass es die technischen Möglichkeiten wie GPS und weitere Sensoren im Smartphone und die notwendigen Daten bei Google, Wikipedia oder Facebook gibt, um eine App zu realisieren.
+Die Idee zum Reise-Butler ist geboren.
+
+=== Erste Vision
+
+Moritz beschließt, die Idee des Reise-Butlers aufzugreifen und eine erste Vision einer App zu entwickeln. Dazu stellt er sich folgende Fragen:
+
+* Wer sind die Nutzer für das Produkt?
+* Warum sollten sie das Produkt haben wollen?
+* Was macht das Produkt einzigartig?
+* Welche Fähigkeiten muss das Produkt haben?
+
+Frage 1 ist leicht zu beantworten: Reisende in Zügen, Bussen, Beifahrer im Auto.
+Die App ist für jene Reisende, die sich für die vorbeiziehende Welt interessieren.
+Was gleichzeitig die Antwort auf Frage 2 ist.
+Zur Beantwortung von Frage 3 will er sich Zeit für eine Recherche im Internet und in den App-Stores von Google und Apple nehmen.
+Dabei legt er sich gleichzeitig fest, nur auf die beiden Smartphone-Plattformen von Google (Android) und Apple (iOS) zu setzen.
+Die Antwort auf Frage 4 ergibt sich aus der ursprünglichen Idee.
+Die App muss einen Reisenden in die Lage versetzen, schnell und sicher vorbeiziehende Sehenswürdigkeiten (also Gebäude, Landmarken oder Berggipfel) zu erkennen und ihm Zusatzinformationen aus dem Internet bereitzustellen.
+Sie muss leicht zu bedienen und schnell einsatzbereit sein, weil das vorbeiziehende Objekt nicht sehr lange sichtbar ist, besonders bei schnell fahrenden Zügen.
+Aus diesem Grund reicht es nicht, Objekte nur durch die Kamera zu identifizieren.
+Die App muss Kenntnis über den Verlauf der Reise haben, z.B. Start- und Zielort, Umstiege oder interessante Orte in der Umgebung der Strecke.
+
+[abstract]
+«Ich würde so eine App verwenden.», denkt er sich und zeigt sich mit dieser ersten Vision schon recht zufrieden.
+
+Wenn die App jedoch Realität werden soll, muss Moritz daraus ein Projekt machen.
+Er muss eine Grundlage schaffen, um Unterstützer zu finden.
+Einen Namen für das Projekt hat er aber:
+Der Reise-Butler.

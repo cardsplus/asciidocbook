@@ -1,13 +1,66 @@
+[preface]
 == Hinweise des Autors
 
+=== Wer bin ich?
+
 Seit dem Jahr 1990 bin ich leiden­schaft­licher Soft­ware-Ent­wick­ler.
-Mein Hobby ist Beruf.
 Der Schwer­punkt meiner Tätig­kei­ten in den Pro­jek­ten ist der Ent­wurf und die Umset­zung kom­plexer IT-Systeme.
 Meine Rollen waren Ent­wick­ler, Pro­jektleiter, IT-Berater und Produktverantwortlicher.
 Seitdem immer mehr Auf­trag­geber auf agile Ent­wick­lungs­pro­zesse ­set­zen, hat sich für mich vieles geän­dert.
 
-tbd Fallbeispiel Reise-Butler
+=== Was ist `cards+`?
 
-tbd https://cardsplus.info
+`cards+` ist eine Idee, die sich aus meinen positiven und negativen Erfahrungen mit Dokumentation in agilen Entwicklungsprozessn entwickelte.
 
-tbd https://www.xing.com/communities/groups/agil-dokumentieren-1084817
+#tbd# Spielregeln
+
+#tbd# Asciidoc
+
+`cards+` als Name hat sich aus der ursprünglichen Idee der Karten (engl. _cards_) von XP entwickelt.
+Das Plus-Zeichen steht für die Weiterentwicklung der Idee der Karten.
+
+[,Ron Jeffries]
+____
+User stories are written on cards.
+The card does not contain all the information that makes up the requirement.
+Instead, the card has just enough text to identify the requirement, and to remind everyone what the story is.
+The card is a token representing the requirement.
+It’s used in planning.
+Notes are written on it, reflecting priority and cost.
+It’s often handed to the programmers when the story is scheduled to be implemented, and given back to the customer when the story is complete.
+____
+
+Die Karte ist eine Metapher für eine dokumentierte Information.
+Jede Karte hat einen Wert.
+Jede Karte hat eine Bedeutung.
+Die Verwendung einer Karte unterliegt bekannten Spielregeln.
+
+Das Kartenhaus ist eine Metapher für die Qualität.
+Es ist eine wesentliche Eigenschaft von `cards+`, dass die Bausteine wie die Karten eines Kartenhauses (engl. _house of cards_) aufeinander aufbauen.
+Jede Karte muss in einer bestimmten Reihenfolge in einer festgelegten Art und Weise aufgestellt werden, um am Ende ein vollständiges Kartenhaus zu bilden.
+Es ist nur dann stabil und vollständig, wenn alle Karten vorhanden sind.
+Fehlt eine Karte, dann stürzt das Kartenhaus in sich zusammen.
+Die Karten des Kartenhauses bilden eine Pyramide aus aufeinander aufbauenden Ebenen.
+Das Kartenhaus steht darum für die Idee der Vermittlung von Wissen vom Groben ins Feine (engl. _top down_).
+
+Begleitende Informationen zu `cards+` gibt es auf meiner persönlichen Website.
+
+-> https://cardsplus.info.
+
+Wer Fra­gen hat oder ein­fach nur Feed­back zu `cards+` geben möchte, kann das sehr gerne in der von mir moderier­ten Gruppe "Agil doku­men­tie­ren" im sozia­len Netz­werk Xing tun.
+
+-> https://www.xing.com/communities/groups/agil-dokumentieren-1084817
+
+=== Was ist der Reise-Butler?
+
+Der Reise-Butler ist eine Geschichte über ein fik­tives Soft­ware-Ent­wick­lungs­pro­jekt und Fall­beispiel für den Ein­satz von `cards+`.
+Die Geschichte zeigt die Praxis bei der Ver­wen­dung der Bau­steine beim Ent­wurf des IT-Systems, bei der Ana­lyse der Anfor­derun­gen der Reisen­den und bei der Reali­sierung der Soft­ware.
+
+Der Reise-Butler ist eine intelligente Smartphone-App, die einen Fahrgast auf seiner Reise individuell begleitet.
+Die App versorgt ihn entlang der Fahrtroute von Verkehrsmitteln des öffentlichen Personenverkehrs mit Wissen aus dem Internet über vorbeiziehende Gebäude, Landmarken und andere gut sichtbare Sehenswürdigkeiten.
+Er bekommt zielgerichtet Informationen über Stationen, an denen er einsteigt, in ein anderes Verkehrsmittel umsteigt oder an seinem Reiseziel aussteigt.
+Die genaue Kenntnis des Fahrtverlaufes der geplanten Reise versetzt die App in die Lage, den Fahrgast aktiv auf Verspätungen oder andere Abweichungen vom Fahrplan hinzuweisen.
+
+Personen und Handlung sind frei erfunden.
+Etwaige Ähnlichkeiten mit tatsächlichen Begebenheiten, lebender oder verstorbener Personen wäre reiner Zufall.
+Fühlt sich jemand im positiven Sinne angesprochen, freut mich das.

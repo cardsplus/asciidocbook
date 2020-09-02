@@ -18,9 +18,12 @@ Agile Soft­ware-Ent­wick­lung ist darum Teil der digi­talen Trans­for­mati
 Dabei kommt es aber nicht nur darauf an, agil vor­zu­gehen, son­dern gene­rell flexi­bel zu sein.
 Agili­tät wird häu­fig in einem Atem­zug mit Ge­schwin­dig­keit oder Effi­zienz ge­nannt.
 Aber über Doku­men­tation wird nicht so häu­fig ge­spro­chen.
-Es gibt die einen, die auf Doku­men­tation ver­zich­ten wollen. 
+Es gibt die einen, die auf Doku­men­tation ver­zich­ten wollen.
+
 [big]#»Code und Test­pläne reichen!«# sagen sie.
+
 Andere wollen wiede­rum alles ganz genau auf­schrei­ben.
+
 [big]#»Wissen darf nicht ver­loren gehen!«# for­dern sie.
 
 Dokumentation ist wichtig und (eigentlich) Pflicht.
