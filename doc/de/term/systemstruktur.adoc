@@ -1,4 +1,3 @@
-Epic::
+Systembstruktur::
 
-[#Epic]
 Lorem ipsum dolor sit amet.

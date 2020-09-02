@@ -1,4 +1,4 @@
-Epic::
+Handbuch::
 
-[#Epic]
+[#Handbuch]
 Lorem ipsum dolor sit amet.

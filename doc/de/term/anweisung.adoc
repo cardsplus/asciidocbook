@@ -1,4 +1,4 @@
-Epic::
+Anweisung::
 
-[#Epic]
+[#Anweisung]
 Lorem ipsum dolor sit amet.

@@ -1,0 +1,7 @@
+Asciidoc::
+
+Lorem ipsum dolor sit amet.
+
+Asciidoctor::
+
+Lorem ipsum dolor sit amet.

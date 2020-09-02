@@ -1,1 +1,4 @@
-Case:: Lorem ipsum dolor sit amet.
+Case::
+
+[#Case]
+Lorem ipsum dolor sit amet.

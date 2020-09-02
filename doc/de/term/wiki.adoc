@@ -1,4 +1,4 @@
-Epic::
+Wiki::
 
-[#Epic]
+[#Wiki]
 Lorem ipsum dolor sit amet.

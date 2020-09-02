@@ -1,4 +1,3 @@
-Epic::
+Systembeschreibung::
 
-[#Epic]
 Lorem ipsum dolor sit amet.
