@@ -1,6 +1,11 @@
 = Asciidoc book
 
-== Asciidoc
+== Gradle
+
+ ./gradlew clean
+ ./gradlew build
+ ./gradlew asciidoctor
+ ./gradlew asciidoctorPdf
 
 https://asciidoctor.org/
 
@@ -17,6 +22,10 @@ https://github.com/asciidoctor/asciidoctorj-screenshot
 https://github.com/asciidoctor/asciidoctor-extensions-lab
 
 == Github
+
+ git remote add upstream https://github.com/cardsplus/asciidocbook.git
+ git fetch upstream
+ git merge upstream/master
 
 https://docs.github.com/en/github/building-a-strong-community/adding-a-license-to-a-repository
 
