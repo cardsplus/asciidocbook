@@ -1,1 +1,4 @@
-Topic:: Lorem ipsum dolor sit amet.
+Topic::
+
+[#Topic]
+Lorem ipsum dolor sit amet.
