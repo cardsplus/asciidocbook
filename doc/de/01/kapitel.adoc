@@ -1,6 +1,6 @@
 == Einleitung
 
-=== Motivation
+=== Dokumentierte Informationen
 
 Unter­nehmen brau­chen das Wissen ihrer Be­schäf­tig­ten.
 Wissen muss be­wahrt und ge­teilt wer­den.
@@ -30,7 +30,7 @@ Agile Methoden verwenden _User Stories_ in einem _Product Backlog_.
 * Der #Architekturentwurff# hat gerade beim Start eines Projektes große Bedeutung.
 Selbst wenn ein Auftraggeber akzeptiert, dass eine Software-Architektur #»einfach so«# entsteht, sollte die fundamentalen Entscheidungen und grundlegenden Konzepte dann doch dokumentiert werden.
 
-An Dokumentation mangelt es in den meisten Projekten daher nicht.
+An dokumentierten Informationen mangelt es in den meisten Projekten daher nicht.
 
 === Digitale Transformation
 
@@ -58,3 +58,27 @@ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit ame
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+=== Gemeinsame Sprache
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+=== Qualitätspolitik
+
+Quali­täts­poli­tik kennen wir aus dem Sprach­gebrauch der Quali­täts­manage­ment­norm #ISO 9001#.
+Mit dem Begriff «Poli­tik» tun sich viele schwer.
+Im Englischen spricht man von _«Policy»_, über­setzt also Strate­gie oder Leit­linie.
+Agile Ent­wick­lungs­­pros­zesse haben sich aus der Erkennt­nis ent­wickelt, dass sich Anfor­derungen für ein IT-System nie so exakt spezifi­zieren lassen, dass kein Spiel­raum für Inter­preta­tionen bleibt.
+Die Welt dreht sich wäh­rend der Reali­sierung im Projekt wei­ter.
+Was heute eine gute Idee ist, kann mor­gen schon ein alter Hut sein.
+Steuerungs­maß­nahmen für die Qualität eines Ent­wicklungs­prozesses, wie sie in der #ISO 9001# von einer Organi­sation gefordert werden, sind nur mit genauer Kennt­nis der Ent­wick­lungs­erge­bnisse mög­lich.
+
+Eine Doku­men­tation muss Quali­täts­merk­male wie Voll­ständig­keit und Richtig­keit auf­weisen.
+Die #ISO 9001# lehrt uns, dass Quali­täts­merk­male mess­bar sein müssen.
+Die Quali­täts­manage­ment­norm #ISO 25010# macht Vor­schläge für die Kate­gori­sie­rung von Quali­täts­merk­malen.
+Eine voll­stän­dige und kor­rekte Pro­dukt­doku­men­tation ist bereits ein nicht zu unter­schätzen­des Quali­täts­merk­mal einer Soft­ware in Bezug auf die Kate­gorie Wart­bar­keit.
