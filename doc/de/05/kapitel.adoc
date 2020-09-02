@@ -1,20 +1,11 @@
-== Tabellen
+== Kapitel
 
 [abstract]
-Eine Tabelle ist eine geordnete Zusammenstellung von Texten. 
-Die darzustellenden Inhalte werden dabei in Zeilen (waagerecht) und Spalten (senkrecht) gegliedert, die grafisch aneinander ausgerichtet werden.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-.Lorem ipsum
-[options="header"]
-|====
-|P|Q|P^Q
-|T|T|T
-|T|F|F
-|F|T|F
-|F|F|F
-|====
-
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.

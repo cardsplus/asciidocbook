@@ -1,57 +1,11 @@
-== Hervorhebungen
+== Kapitel
 
 [abstract]
-Eine Hervorhebung hebt Text oder Teile davon optisch hervor. 
-
-=== Beispiel
-
-.Lorem ipsum
-====
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-====
-
-At vero eos et accusam et justo duo dolores et ea rebum.
-
-====
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-====
 
-=== Kasten
-
-.Lorem ipsum
-****
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-****
-
 At vero eos et accusam et justo duo dolores et ea rebum.
-
-****
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-****
-
-=== Zitat
-
-[,Max Mustermann]
-____
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-____
-
-=== Vorschlag
-
-TIP: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-=== Information
-
-NOTE: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-=== Wichtige Information
-
-IMPORTANT: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-=== Sehr wichtige Information
-
-WARNING: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-=== Kritische Information
-
-CAUTION: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.

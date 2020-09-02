@@ -1,13 +1,46 @@
-== Schriftstile
+== Einleitung
 
-[abstract]
-Text kann unterschiedliche Schriftstile haben.
-Der Schriftstil wird bestimmt durch die
-Schriftbreite (z.B. schmal oder breit),
-Schriftlage (z.B. normal oder kursiv) und
-Schriftstärke (z.B. normal oder fett). 
+=== Dokumentierte Informationen
 
-=== Normale Schrift
+Unter­nehmen brau­chen das Wissen ihrer Be­schäf­tig­ten.
+Wissen muss be­wahrt und ge­teilt wer­den.
+Wissens­inseln sind ein Risi­ko in jeder Orga­nisation.
+Durch Fluktuation oder durch Änderungen in der Organisation entsteht ein regelmäßiger Wechsel beim Personal und bei anderen interessierten Parteien.
+Damit ist immer die Gefahr verbunden, dass Wissen verloren geht.
+Viel Wissen steckt auch in Soft­ware.
+Der Verlust von Wissen in Entwicklungsprojekten ist gefährlich.
+Die Produktvision geht verloren.
+Qualität und Produktivität sinkt.
+Anpassungen und Erweiterungen der Software werden schwieriger.
+Es ist nicht klar, was die Software jetzt schon leistet.
+Die Innovationskraft der Organisation sinkt.
+Agile Soft­ware-Ent­wick­lung ist darum Teil der digi­talen Trans­for­mation in vielen Unter­neh­men.
+Dabei kommt es aber nicht nur darauf an, agil vor­zu­gehen, son­dern gene­rell flexi­bel zu sein.
+Agili­tät wird häu­fig in einem Atem­zug mit Ge­schwin­dig­keit oder Effi­zienz ge­nannt.
+Aber über Doku­men­tation wird nicht so häu­fig ge­spro­chen.
+Es gibt die einen, die auf Doku­men­tation ver­zich­ten wollen. 
+[big]#»Code und Test­pläne reichen!«# sagen sie.
+Andere wollen wiede­rum alles ganz genau auf­schrei­ben.
+[big]#»Wissen darf nicht ver­loren gehen!«# for­dern sie.
+
+Dokumentation ist wichtig und (eigentlich) Pflicht.
+Abhängig von der Projektorganisation und dem gewählten Vorgehen - phasen-orientiert, iterativ oder agil - schreiben Projektmitarbeiter verschiedener technischer Disziplinen im Laufe der Zeit eine ganze Reihe dokumentierter Informationen:
+
+* Die Nutzer der Software benötigen Handbücher, Trainingsunterlagen und Online-Hilfen, um die Software verwenden zu können.
+
+* Die Betriebsorganisation braucht Anleitungen für Einführung und Betrieb der Software und Handlungsanweisungen für die Behebung von Störungen.
+
+* Eine Systembeschreibung gibt es in unterschiedlichen Formen.
+Beim Start eines Projektes gibt es Anforderungen an die Software, die sich im Verlauf des Projektes regelmäßig ändern.
+In vielen Fällen fordern Auftraggeber ein Pflichtenheft.
+Agile Methoden verwenden _User Stories_ in einem _Product Backlog_.
+
+* Der Architekturentwurf hat gerade beim Start eines Projektes große Bedeutung.
+Selbst wenn ein Auftraggeber akzeptiert, dass eine Software-Architektur »einfach so« entsteht, sollte die fundamentalen Entscheidungen und grundlegenden Konzepte dann doch dokumentiert werden.
+
+An dokumentierten Informationen mangelt es in den meisten Projekten daher nicht.
+
+=== Digitale Transformation
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 At vero eos et accusam et justo duo dolores et ea rebum.
@@ -16,90 +49,44 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-=== Fette Schrift
-
-*Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.*
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, *sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat*, sed diam voluptua.
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-=== Kursive Schrift
-
-_Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua_.
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, _sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat_, sed diam voluptua.
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-=== Proportionale Schrift
+=== Agile Software-Entwicklung
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
- At vero eos et accusam et justo duo dolores et ea rebum.
- Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
- Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
- At vero eos et accusam et justo duo dolores et ea rebum.
-
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-monospace `constrained` & ``un``constrained
-
-monospace bold `*constrained*` & ``**un**``constrained
-
-monospace italic `_constrained_` & ``__un__``constrained
-
-monospace bold italic `*_constrained_*` & ``**__un__**``constrained
-
-`{cpp}` is valid syntax in the programming language by the same name.
-
-`+WHERE id <= 20 AND value = "{name}"+` is a SQL WHERE clause.
-
-.Lorem ipsum
-----
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-----
-
-At vero eos et accusam et justo duo dolores et ea rebum.
-
-----
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-----
-
-=== Hochgestellt
-
-^Lorem&nbsp;ipsum^ dolor sit amet, ^conse^tetur sadipscing elitr, sed diam ^nonumy^ eirmod tempor invidunt ut labore et dolore magna aliqu^yam^ erat, sed diam vo^lup^tua.
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-=== Tiefgestellt
+=== Strate­gisches und takt­isches Design
 
-~Lorem&nbsp;ipsum~ dolor sit amet, ~conse~tetur sadipscing elitr, sed diam ~nonumy~ eirmod tempor invidunt ut labore et dolore magna aliqu~yam~ erat, sed diam vo~lup~tua.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-=== Vergrößert
+=== Gemeinsame Sprache
 
-Lorem ipsum [big]#dolor# sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-[big]#At vero eos et accusam et justo duo dolores et ea rebum.#
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-=== Verkleinert
+=== Qualitätspolitik
 
-Lorem ipsum [small]#dolor# sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-[small]#At vero eos et accusam et justo duo dolores et ea rebum.#
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Quali­täts­poli­tik kennen wir aus dem Sprach­gebrauch der <<ISO-9001>>.
+Mit dem Begriff «Poli­tik» tun sich viele schwer.
+Im Englischen spricht man von _«Policy»_, über­setzt also Strate­gie oder Leit­linie.
+Agile Ent­wick­lungs­­pros­zesse haben sich aus der Erkennt­nis ent­wickelt, dass sich Anfor­derungen für ein IT-System nie so exakt spezifi­zieren lassen, dass kein Spiel­raum für Inter­preta­tionen bleibt.
+Die Welt dreht sich wäh­rend der Reali­sierung im Projekt wei­ter.
+Was heute eine gute Idee ist, kann mor­gen schon ein alter Hut sein.
+Steuerungs­maß­nahmen für die Qualität eines Ent­wicklungs­prozesses, wie sie in der <<ISO-9001>> von einer Organi­sation gefordert werden, sind nur mit genauer Kennt­nis der Ent­wick­lungs­erge­bnisse mög­lich.
+
+Eine Doku­men­tation muss Quali­täts­merk­male wie Voll­ständig­keit und Richtig­keit auf­weisen.
+Die <<ISO-9001>> lehrt uns, dass Quali­täts­merk­male mess­bar sein müssen.
+Die <<ISO-25010>> macht Vor­schläge für die Kate­gori­sie­rung von Quali­täts­merk­malen.
+Eine voll­stän­dige und kor­rekte Doku­men­tation ist ein wichtiges Quali­täts­merk­mal einer Soft­ware in Bezug auf die Kate­gorie Wart­bar­keit.
