@@ -1,1 +1,3 @@
-Systembeschreibung:: Lorem ipsum dolor sit amet.
+Systembeschreibung::
+
+Lorem ipsum dolor sit amet.

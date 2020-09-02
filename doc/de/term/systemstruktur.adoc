@@ -1,1 +1,3 @@
-Systembstruktur:: Lorem ipsum dolor sit amet.
+Systembstruktur::
+
+Lorem ipsum dolor sit amet.

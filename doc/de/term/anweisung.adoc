@@ -1,4 +1,4 @@
-ISO 9001::
+Anweisung::
 
-[#ISO-9001]
+[#Anweisung]
 Lorem ipsum dolor sit amet.

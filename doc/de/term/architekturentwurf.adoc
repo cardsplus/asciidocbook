@@ -1,1 +1,3 @@
-Architekturentwurf:: Lorem ipsum dolor sit amet.
+Architekturentwurf::
+
+Lorem ipsum dolor sit amet.
