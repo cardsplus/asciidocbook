@@ -1,20 +1,26 @@
 [preface]
 == Hinweise des Autors
 
-=== Wer bin ich?
+=== Über mich
 
 Seit dem Jahr 1990 bin ich leiden­schaft­licher Soft­ware-Ent­wick­ler.
 Der Schwer­punkt meiner Tätig­kei­ten in den Pro­jek­ten ist der Ent­wurf und die Umset­zung kom­plexer IT-Systeme.
 Meine Rollen waren Ent­wick­ler, Pro­jektleiter, IT-Berater und Produktverantwortlicher.
 Seitdem immer mehr Auf­trag­geber auf agile Ent­wick­lungs­pro­zesse ­set­zen, hat sich für mich vieles geän­dert.
 
-=== Was ist `cards+`?
+=== Über `cards+`
 
 `cards+` ist eine Idee, die sich aus meinen positiven und negativen Erfahrungen mit Dokumentation in agilen Entwicklungsprozessn entwickelte.
 
-#tbd# Spielregeln
+#tbd# Bausteine, Spielregeln im Wiki
 
-#tbd# Asciidoc
+#tbd# Prinzipien und Praktiken
+
+#tbd# Integration mit `htmltool`
+
+NOTE: Begleitende Informationen zu `cards+` gibt es auf meiner persönlichen Website <<rb1>>.
+
+NOTE: Wer Fra­gen hat oder ein­fach nur Feed­back zu `cards+` geben möchte, kann das sehr gerne in der von mir moderier­ten Gruppe "Agil doku­men­tie­ren" <<rb2>> im sozia­len Netz­werk Xing tun.
 
 `cards+` als Name hat sich aus der ursprünglichen Idee der Karten (engl. _cards_) von XP entwickelt.
 Das Plus-Zeichen steht für die Weiterentwicklung der Idee der Karten.
@@ -43,24 +49,34 @@ Fehlt eine Karte, dann stürzt das Kartenhaus in sich zusammen.
 Die Karten des Kartenhauses bilden eine Pyramide aus aufeinander aufbauenden Ebenen.
 Das Kartenhaus steht darum für die Idee der Vermittlung von Wissen vom Groben ins Feine (engl. _top down_).
 
-Begleitende Informationen zu `cards+` gibt es auf meiner persönlichen Website.
-
--> https://cardsplus.info.
-
-Wer Fra­gen hat oder ein­fach nur Feed­back zu `cards+` geben möchte, kann das sehr gerne in der von mir moderier­ten Gruppe "Agil doku­men­tie­ren" im sozia­len Netz­werk Xing tun.
-
--> https://www.xing.com/communities/groups/agil-dokumentieren-1084817
-
-=== Was ist der Reise-Butler?
-
-Der Reise-Butler ist eine Geschichte über ein fik­tives Soft­ware-Ent­wick­lungs­pro­jekt und Fall­beispiel für den Ein­satz von `cards+`.
-Die Geschichte zeigt die Praxis bei der Ver­wen­dung der Bau­steine beim Ent­wurf des IT-Systems, bei der Ana­lyse der Anfor­derun­gen der Reisen­den und bei der Reali­sierung der Soft­ware.
+=== Fallbeispiel
 
 Der Reise-Butler ist eine intelligente Smartphone-App, die einen Fahrgast auf seiner Reise individuell begleitet.
 Die App versorgt ihn entlang der Fahrtroute von Verkehrsmitteln des öffentlichen Personenverkehrs mit Wissen aus dem Internet über vorbeiziehende Gebäude, Landmarken und andere gut sichtbare Sehenswürdigkeiten.
 Er bekommt zielgerichtet Informationen über Stationen, an denen er einsteigt, in ein anderes Verkehrsmittel umsteigt oder an seinem Reiseziel aussteigt.
 Die genaue Kenntnis des Fahrtverlaufes der geplanten Reise versetzt die App in die Lage, den Fahrgast aktiv auf Verspätungen oder andere Abweichungen vom Fahrplan hinzuweisen.
 
-Personen und Handlung sind frei erfunden.
+Der Reise-Butler ist eine Geschichte.
+Das Smartphone-App gibt es nicht, die Dokumentation im Wiki schon.
+Die Geschichte zeigt den Ein­satz von `cards+` in einem agilen Entwicklungsprojekt.
+Die Handlung wird von folgenden Personen getragen (in der Reihenfolge ihres Erscheinens):
+
+Moritz::
+
+#tbd#
+
+Verena::
+
+#tbd#
+
+Das Team::
+
+#tbd#
+
+In verschiedenen Situationen während der Ana­lyse der Anfor­derun­gen, beim Ent­wurf des IT-Systems und bei der Reali­sierung der Soft­ware verwenden sie Bau­steine von `cards+`.
+Sie besprechen typische Probleme und finden angemessene Lösungen.
+Dabei folgen sie den Prinzipien von `cards+` und nutzen die vorgeschlagenen Praktiken.
+
+NOTE: Personen und Handlung in der Geschichte sind frei erfunden.
 Etwaige Ähnlichkeiten mit tatsächlichen Begebenheiten, lebender oder verstorbener Personen wäre reiner Zufall.
 Fühlt sich jemand im positiven Sinne angesprochen, freut mich das.

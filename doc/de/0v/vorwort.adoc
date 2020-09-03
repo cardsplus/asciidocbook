@@ -12,11 +12,11 @@ Kosten und Qualität bilden ein Spannungsfeld, in dem sich eine ganze Reihe von 
 Einige davon haben direkten Einfluss auf die Dokumentation. 
 
 ****
-Clean Code::
+Clean Code <<ccd>>::
 
 #tbd# Praktiken und Prinzipien, Spielregeln
 
-Domain-Driven Design::
+Domain-Driven Design <<ddd>>::
 
 #tbd# gemeinsame Sprache, strategisches und taktisches Design
 
@@ -24,7 +24,7 @@ Agilität::
 
 #tbd# Manifest agiler Software-Entwicklung, Vision, Backlog, Story
 
-Docs-as-Code::
+Docs-as-Code <<dac>>::
 
 #tbd# Asciidoc, Wiki
 ****
