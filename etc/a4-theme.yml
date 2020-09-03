@@ -20,11 +20,13 @@ footer:
 font:
     merge: false
     catalog:
+        # https://fonts.google.com/specimen/Roboto
         Roboto:
             normal: Roboto-Regular.ttf
             bold: Roboto-Bold.ttf
             italic: Roboto-Italic.ttf
             bold_italic: Roboto-BoldItalic.ttf
+        # https://fonts.google.com/specimen/Roboto+Mono
         RobotoMono:
             normal: RobotoMono-Regular.ttf
             bold: RobotoMono-Bold.ttf
