@@ -84,3 +84,6 @@ asciidoctorPdf {
   outputDir file('build/pdf')
   outputs.upToDateWhen { false }
 }
+
+task html(dependsOn: 'asciidoctor')
+task pdf(dependsOn: 'asciidoctorPdf')
