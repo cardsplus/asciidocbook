@@ -5,6 +5,8 @@
 :chapter-label: 
 :toc-title: Inhalt
 :icons: font
+:hyphens: de
+:lang: de
 = Titel
 
 include::0v/vorwort.adoc[]
