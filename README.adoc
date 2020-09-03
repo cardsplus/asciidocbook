@@ -15,6 +15,8 @@ https://github.com/asciidoctor/asciidoctor-gradle-plugin
 
 https://github.com/asciidoctor/asciidoctor-pdf/blob/master/docs/theming-guide.adoc
 
+https://github.com/asciidoctor/asciidoctor-pdf/blob/master/data/themes/default-theme.yml
+
 https://docs.atlas.oreilly.com/writing_in_asciidoc.html
 
 https://github.com/asciidoctor/asciidoctorj-screenshot
