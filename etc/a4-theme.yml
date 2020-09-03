@@ -3,6 +3,20 @@ page:
     layout: portrait
     margin: [0.75in, 1in, 0.75in, 1in]
     size: A4
+header:
+    height: 0.5in
+    line_height: 1
+    recto_content:
+        center: '{document-title}'
+    verso_content:
+        center: '{document-title}'
+footer:
+    height: 0.5in
+    line_height: 1
+    recto_content:
+        right: '{chapter-title} | *{page-number}*'
+    verso_content:
+        left: '*{page-number}* | {chapter-title}'
 font:
     merge: false
     catalog:
@@ -18,21 +32,21 @@ font:
             bold_italic: RobotoMono-BoldItalic.ttf
 base:
     font_family: Roboto
+abstract:
+    font_size: $base_font_size
+    line_height: $base_line_height
+    font_style: italic
+    align: right
+    padding: [0, 0, 0, 1in]
+blockquote:
+    font_size: $base_font_size_small     
 code:
     font_family: RobotoMono
+    font_size: $base_font_size_small     
 literal:
     font_family: RobotoMono
-header:
-    height: 0.5in
-    line_height: 1
-    recto_content:
-        center: '{document-title}'
-    verso_content:
-        center: '{document-title}'
-footer:
-    height: 0.5in
-    line_height: 1
-    recto_content:
-        right: '{chapter-title} | *{page-number}*'
-    verso_content:
-        left: '*{page-number}* | {chapter-title}'
+ulist:
+    marker:
+        disc:
+            # https://www.w3schools.com/charsets/ref_utf_geometric.asp
+            content: "\u203a"

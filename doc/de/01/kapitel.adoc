@@ -20,11 +20,19 @@ Agili­tät wird häu­fig in einem Atem­zug mit Ge­schwin­dig­keit oder Eff
 Aber über Doku­men­tation wird nicht so häu­fig ge­spro­chen.
 Es gibt die einen, die auf Doku­men­tation ver­zich­ten wollen.
 
-[big]#»Code und Test­pläne reichen!«# sagen sie.
+[abstract]
+»Code und Test­pläne reichen!« sagen sie.
 
+Sie sagen, auf Dokumentation kann in agilen Projekten sogar verzichtet werden und berufen sich dabei auf Punkt 2 im Manifest für agile Software-Entwicklung:
+
+[abstract]
+»Wir schätzen funktionierende Software mehr als umfassende Dokumentation.«
+
+Sie vergessen dabei, dass es im Manifest ganz klar heißt, dass beide Werte wichtig sind, wir aber den Wert auf der linken Seite höher einschätzen.
 Andere wollen wiede­rum alles ganz genau auf­schrei­ben.
 
-[big]#»Wissen darf nicht ver­loren gehen!«# for­dern sie.
+[abstract]
+»Wissen darf nicht ver­loren gehen!« for­dern sie.
 
 Dokumentation ist wichtig und (eigentlich) Pflicht.
 Abhängig von der Projektorganisation und dem gewählten Vorgehen - phasen-orientiert, iterativ oder agil - schreiben Projektmitarbeiter verschiedener technischer Disziplinen im Laufe der Zeit eine ganze Reihe dokumentierter Informationen:
@@ -33,13 +41,14 @@ Abhängig von der Projektorganisation und dem gewählten Vorgehen - phasen-orien
 
 * Die Betriebsorganisation braucht Anleitungen für Einführung und Betrieb der Software und Handlungsanweisungen für die Behebung von Störungen.
 
-* Eine Systembeschreibung gibt es in unterschiedlichen Formen.
-Beim Start eines Projektes gibt es Anforderungen an die Software, die sich im Verlauf des Projektes regelmäßig ändern.
-In vielen Fällen fordern Auftraggeber ein Pflichtenheft.
-Agile Methoden verwenden _User Stories_ in einem _Product Backlog_.
+* Produktverantwortliche braucht eine Systembeschreibung für sein Anforderungsmanagement.
+In einem agilen Entwicklungsprozess schreiben sie _User Stories_ in einem _Product Backlog_. 
 
-* Der Architekturentwurf hat gerade beim Start eines Projektes große Bedeutung.
-Selbst wenn ein Auftraggeber akzeptiert, dass eine Software-Architektur »einfach so« entsteht, sollte die fundamentalen Entscheidungen und grundlegenden Konzepte dann doch dokumentiert werden.
+* Produktverantwortliche muss den Architekturentwurf für das System kennen.
+Er muss Kosten für den Betrieb und den Einsatz von Technologien gegenüber dem Auftraggeber begründen können.
+Selbst wenn ein Auftraggeber akzeptiert, dass eine Software-Architektur »einfach so« entsteht, sollten die fundamentalen Entscheidungen und grundlegenden Konzepte dann doch dokumentiert werden.
+
+* Entwickler kommentieren ihren Code. Sie schreiben Spezifikationen. Oft nutzen sie UML-Diagramme, um Zusammenhänge darzustellen. Sie tun das in der Regel für sich und andere Entwickler im Team.
 
 An dokumentierten Informationen mangelt es in den meisten Projekten daher nicht.
 
