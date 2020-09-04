@@ -49,20 +49,26 @@ asciidoctorj {
   attributes 'revdate': new Date().format('yyyy/MM/dd')
   attributes 'revyear': new Date().format('yyyy')
   attributes 'revremark': description
-  attributes 'imagesdir': 'images'
 }
 
 asciidoctor {
   build.dependsOn it
   dependsOn asciidoctorGemsPrepare
+  languages 'de'
+  baseDirFollowsSourceDir()
   attributes 'toc': 'left'
   attributes 'toclevels': '5'
-  languages 'de'
+  attributes 'imagesdir': 'images'
   sourceDir file('doc')
   sources {
     include 'index.adoc', 'pitch.adoc'
   }
-  baseDirFollowsSourceDir()
+  resources {
+    from('doc') {
+      include '**/*.png'
+    }
+    into './images'
+  }
   outputDir file('build/html')
   outputs.upToDateWhen { false }
 }
@@ -71,16 +77,17 @@ pdfThemes.local 'a4', { themeDir = 'etc' }
 asciidoctorPdf {
   build.dependsOn it
   dependsOn asciidoctorGemsPrepare
+  languages 'de'
+  baseDirFollowsSourceDir()
   attributes 'toc': 'left'
   attributes 'toclevels': '3'
-  languages 'de'
+  attributes 'imagesdir': file('doc')
   theme 'a4'
   fontsDir file('fonts')
   sourceDir file('doc')
   sources {
     include 'index.adoc', 'pitch.adoc'
   }
-  baseDirFollowsSourceDir()
   outputDir file('build/pdf')
   outputs.upToDateWhen { false }
 }

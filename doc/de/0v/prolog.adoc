@@ -13,7 +13,7 @@ Sein Blick schweift in die Ferne und bleibt an einem seltsamen Gebäude hängen.
 «Welchen Zweck hat dieses Gebäude?», denkt er sich.
 
 Einen Moment später ist es durch eine bewaldete Hügelkette verdeckt.
-Weil er eh gerade nichts Besseres zu tun hat, nimmt er sein Smartphone in die Hand. 
+Weil er eh gerade nichts Besseres zu tun hat, nimmt er sein Smartphone in die Hand.
 Er will herausfinden, was das für ein Gebäude ist.
 
 [abstract]
@@ -46,7 +46,8 @@ Die Idee zum Reise-Butler ist geboren.
 
 === Erste Vision
 
-Moritz beschließt, die Idee des Reise-Butlers aufzugreifen und eine erste Vision einer App zu entwickeln. Dazu stellt er sich folgende Fragen:
+Moritz beschließt, die Idee des Reise-Butlers aufzugreifen und eine erste Vision einer App zu entwickeln.
+Dazu stellt er sich folgende Fragen:
 
 * Wer sind die Nutzer für das Produkt?
 * Warum sollten sie das Produkt haben wollen?

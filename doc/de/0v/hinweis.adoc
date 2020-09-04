@@ -1,3 +1,4 @@
+:imagesdir: ../..
 [preface]
 == Hinweise des Autors
 
@@ -51,27 +52,73 @@ Das Kartenhaus steht darum für die Idee der Vermittlung von Wissen vom Groben i
 
 === Fallbeispiel
 
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
 Der Reise-Butler ist eine intelligente Smartphone-App, die einen Fahrgast auf seiner Reise individuell begleitet.
 Die App versorgt ihn entlang der Fahrtroute von Verkehrsmitteln des öffentlichen Personenverkehrs mit Wissen aus dem Internet über vorbeiziehende Gebäude, Landmarken und andere gut sichtbare Sehenswürdigkeiten.
 Er bekommt zielgerichtet Informationen über Stationen, an denen er einsteigt, in ein anderes Verkehrsmittel umsteigt oder an seinem Reiseziel aussteigt.
 Die genaue Kenntnis des Fahrtverlaufes der geplanten Reise versetzt die App in die Lage, den Fahrgast aktiv auf Verspätungen oder andere Abweichungen vom Fahrplan hinzuweisen.
 
 Der Reise-Butler ist eine Geschichte.
-Das Smartphone-App gibt es nicht, die Dokumentation im Wiki schon.
+Die Smartphone-App gibt es nicht, die Dokumentation im Wiki schon.
 Die Geschichte zeigt den Ein­satz von `cards+` in einem agilen Entwicklungsprojekt.
 Die Handlung wird von folgenden Personen getragen (in der Reihenfolge ihres Erscheinens):
 
-Moritz::
+[cols="1a,9a",options="noheader",frame=none,grid=none]
+|===
 
-#tbd#
+|image::moritz.png[width=48,align="center"]
+|Moritz::
+Moritz ist Berater bei der xxx GmbH.
+Er besitzt fundierte Kenntnisse über verteilte event-basierte Systeme und Technologien zur Verarbeitung großer Datenmengen.
+Der Schwerpunkt seiner Tätigkeiten in Projekten ist der Entwurf und die Umsetzung komplexer Software-Systeme und das Coaching von Entwicklerteams.
 
-Verena::
+|image::verena.png[width=29,align="center"]
+|Verena::
+Verena ist Mitgründerin und Geschäftsführerin der xxx GmbH.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
 
-#tbd#
+|image::anne.png[width=32,align="center"]
+|Anne::
+Anne ist jüngstes Kind einer großen Familie.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
 
-Das Team::
+|image::georg.png[width=38,align="center"]
+|Georg::
+Georg zeigte schon seit seinen Kindheitstagen großes Interesse für alles, was mit Computern zu tun hat.
+Einige Jahre lang betreute er nebenberuflich die IT-Landschaft eines mittelständischen Bauunternehmens.
+At vero eos et accusam et justo duo dolores et ea rebum.
 
-#tbd#
+|image::julius.png[width=34,align="center"]
+|Julius::
+Julius hat die Welt der Computer seit Jugendtagen fasziniert.
+Seine erste Webseite hat er bereits in sehr jungen Jahren programmiert - über sein Hobby, das Modellfliegen.
+Er liebt es zu tüfteln und Probleme zu lösen.
+Je schwieriger die Aufgabe desto besser.
+At vero eos et accusam et justo duo dolores et ea rebum.
+
+|image::richard.png[width=33,align="center"]
+|Richard::
+Richard konnte sich scho in der Realschulzeit für Software begeistern.
+Er hatte immer einen Computer.
+Anfangs ein C64, dann diverse PCs.
+Jetzt liebt er seinen Mac.
+At vero eos et accusam et justo duo dolores et ea rebum.
+
+|image::tim.png[width=35,align="center"]
+|Tim::
+Tim ist in Oxford (England) und Lüneburg aufgewachsen.
+Angefangen hat er vor vielen Jahren mit kleineren Projekten auf dem Einplatinencomputer Raspberry Pi, wie zum Beispiel eine selbst gebaute Überwachungskamera, ein NAS Server oder kleinere Webseiten.
+At vero eos et accusam et justo duo dolores et ea rebum.
+
+|===
 
 In verschiedenen Situationen während der Ana­lyse der Anfor­derun­gen, beim Ent­wurf des IT-Systems und bei der Reali­sierung der Soft­ware verwenden sie Bau­steine von `cards+`.
 Sie besprechen typische Probleme und finden angemessene Lösungen.
