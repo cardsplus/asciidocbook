@@ -23,8 +23,8 @@ dependencies {
   asciidoctorGems 'rubygems:rouge:3.22.0'
 }
 
+// tag::adoc[]
 asciidoctorj {
-  logLevel 'INFO'
   requires 'rouge'
   requires file('src/main/ruby/glob-include-processor.rb')
   modules {
@@ -35,6 +35,7 @@ asciidoctorj {
       version '1.5.3'
     }
   }
+  logLevel 'INFO'
   options doctype: 'book'
   attributes 'source-highlighter': 'rouge'
   attributes 'sectlink': true
@@ -50,14 +51,16 @@ asciidoctorj {
   attributes 'revyear': new Date().format('yyyy')
   attributes 'revremark': description
 }
+// end::adoc[]
 
+// tag::html[]
 asciidoctor {
   build.dependsOn it
   dependsOn asciidoctorGemsPrepare
   languages 'de'
   baseDirFollowsSourceDir()
   attributes 'toc': 'left'
-  attributes 'toclevels': '5'
+  attributes 'toclevels': '5'  
   attributes 'imagesdir': 'images'
   sourceDir file('doc')
   sources {
@@ -69,10 +72,21 @@ asciidoctor {
     }
     into './images'
   }
+  resources {
+    from('doc') {
+      include '**/*.jpg'
+      include '**/*.png'
+      include '**/*.svg'
+    }
+    into './images'
+  }
   outputDir file('build/html')
   outputs.upToDateWhen { false }
 }
+task html(dependsOn: 'asciidoctor')
+// end::html[]
 
+// tag::pdf[]
 pdfThemes.local 'a4', { themeDir = 'etc' }
 asciidoctorPdf {
   build.dependsOn it
@@ -82,6 +96,7 @@ asciidoctorPdf {
   attributes 'toc': 'left'
   attributes 'toclevels': '3'
   attributes 'imagesdir': file('doc')
+  attributes 'imagesoutdir': file('build/pdf/de/images')
   theme 'a4'
   fontsDir file('fonts')
   sourceDir file('doc')
@@ -91,6 +106,5 @@ asciidoctorPdf {
   outputDir file('build/pdf')
   outputs.upToDateWhen { false }
 }
-
-task html(dependsOn: 'asciidoctor')
 task pdf(dependsOn: 'asciidoctorPdf')
+// end::pdf[]
