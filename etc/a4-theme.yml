@@ -34,9 +34,10 @@ base:
     font_family: Roboto
     line_height: 1.25
 abstract:
-    font_size: $base_font_size
+    font_size: $base_font_size_large
     line_height: $base_line_height
     font_style: italic
+    first_line_font_style: italic
     align: right
     padding: [0, 0, 0, 1in]
 blockquote:

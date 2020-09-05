@@ -67,12 +67,6 @@ asciidoctor {
   }
   resources {
     from('doc') {
-      include '**/*.png'
-    }
-    into './images'
-  }
-  resources {
-    from('doc') {
       include '**/*.jpg'
       include '**/*.png'
       include '**/*.svg'
