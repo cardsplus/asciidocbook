@@ -7,7 +7,12 @@
 :icons: font
 :hyphens: de
 :lang: de
+:imagesdir: ..
 = Titel
+
+Powered by
+
+image::github.png[]
 
 include::0v/vorwort.adoc[]
 

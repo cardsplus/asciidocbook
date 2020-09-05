@@ -1,11 +1,59 @@
-== Diagramme
+:imagesdir: ../..
+== Bilder
 
 [abstract]
+Ein Bild ist ein Foto, eine Grafik oder ein Diagramm.
+Eine Grafik ist im weitesten Sinn der Sammelbegriff für eine künstlerische oder technische Zeichnung.
 Ein Diagramm ist eine grafische Darstellung von Daten, Sachverhalten oder Informationen.
+
+=== Tux (png)
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
-[plantuml, classes, png]
+[.float-group]
+--
+[.left]
+image::tux.png[width=100]
+
+At vero eos et accusam et justo duo dolores et ea rebum.
+--
+
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+=== Tux (jpg)
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+[.float-group]
+--
+[.left]
+image::tux.jpg[width=100]
+
+At vero eos et accusam et justo duo dolores et ea rebum.
+--
+
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+=== Tux (svg)
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+[.float-group]
+--
+[.left]
+image::tux.svg[width=100]
+
+At vero eos et accusam et justo duo dolores et ea rebum.
+--
+
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+=== Klassendiagramm
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+.PlantUML
+[plantuml,plantClass,png]
 ....
 !pragma graphviz_dot jdot
 class BlockProcessor
@@ -16,6 +64,71 @@ class PlantUmlBlock
 BlockProcessor <|-- DiagramBlock
 DiagramBlock <|-- DitaaBlock
 DiagramBlock <|-- PlantUmlBlock
+....
+
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+=== Ganttdiagramm
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+.PlantUML
+[plantuml,plantGantt,png]
+....
+@startgantt
+[Prototype design] lasts 10 days
+[Code prototype] lasts 10 days
+[Write tests] lasts 5 days
+[Code prototype] starts at [Prototype design]'s end
+[Write tests] starts at [Code prototype]'s start
+@endgantt
+....
+
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+=== Mindmap
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+.PlantUML
+[plantuml,plantMindmap,png]
+....
+@startmindmap
++ count
+++ 100
++++ 101
++++ 102
+++ 200
+-- A
+--- AA
+--- AB
+-- B
+@endmindmap
+....
+
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+=== Wireframe
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+.PlantUML
+[plantuml,plantSalt,png]
+....
+salt
+{
+  Just plain text
+  [This is my button]
+  ()  Unchecked radio
+  (X) Checked radio
+  []  Unchecked box
+  [X] Checked box
+  "Enter text here   "
+  ^This is a droplist^
+}
 ....
 
 At vero eos et accusam et justo duo dolores et ea rebum.
