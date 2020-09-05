@@ -33,9 +33,9 @@ https://github.com/asciidoctor/asciidoctor-extensions-lab
  
 https://gradle.org/
 
-https://asciidoctor.github.io/asciidoctor-gradle-plugin/development-3.x/user-guide/
-
 https://github.com/asciidoctor/asciidoctor-gradle-plugin
+
+https://github.com/palantir/gradle-git-version
 
 == Github
 
