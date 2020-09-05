@@ -1,8 +1,8 @@
 :imagesdir: ..
-== Ausrichtungen
+== Absatz
 
 [abstract]
-Text kann unterschiedlich ausgerichtet werden.
+Text in einem Absatz kann unterschiedlich ausgerichtet werden.
 Es gibt Blocksatz und Ausrichtung rechts, zentriert und links zur Verfügung. 
 
 === Rechtsbündig
