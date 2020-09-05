@@ -9,6 +9,8 @@
 
 https://asciidoctor.org/
 
+https://leanpub.com/awesomeasciidoctornotebook
+
 https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
 
 https://asciidoctor.org/docs/asciidoc-writers-guide/
