@@ -7,7 +7,7 @@
 :icons: font
 :hyphens: de
 :lang: de
-:imagesdir: ..
+:imagesdir: .
 = Titel
 
 Powered by
@@ -37,11 +37,11 @@ include::aa/anhang.adoc[]
 include::ab/anhang.adoc[]
 
 [glossary]
-== Glossar
+== Stichwortverzeichnis
 
 include::term/*.adoc[]
 
 [bibliography]
-== Referenzen
+== Literaturverzeichnis
 
 include::ref/*.adoc[]
