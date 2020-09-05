@@ -7,7 +7,7 @@
 :icons: font
 :hyphens: de
 :lang: de
-:imagesdir: ..
+:imagesdir: .
 = Pitch für `cards+`
 
 == Vorwort

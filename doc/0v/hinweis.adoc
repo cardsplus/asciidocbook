@@ -1,4 +1,4 @@
-:imagesdir: ../..
+:imagesdir: ..
 [preface]
 == Hinweise des Autors
 

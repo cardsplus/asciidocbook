@@ -7,12 +7,8 @@
 :icons: font
 :hyphens: de
 :lang: de
-:imagesdir: ..
-= Agiler dokumentieren mit cards+
-
-Dokumente wie Quelltext inkrementell entwickeln und mit hoher Qualität pflegen.
-Dokumentieren wird zur leistbaren Aufgabe der ganzen Organisation.
-Dokumentierte Informationen werden prüfbar, ihre Qualität meßbar.
+:imagesdir: .
+= Titel
 
 Powered by
 

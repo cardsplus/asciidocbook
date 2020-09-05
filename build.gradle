@@ -57,7 +57,6 @@ asciidoctorj {
 asciidoctor {
   build.dependsOn it
   dependsOn asciidoctorGemsPrepare
-  languages 'de'
   baseDirFollowsSourceDir()
   attributes 'toc': 'left'
   attributes 'toclevels': '5'  
@@ -91,12 +90,11 @@ pdfThemes.local 'a4', { themeDir = 'etc' }
 asciidoctorPdf {
   build.dependsOn it
   dependsOn asciidoctorGemsPrepare
-  languages 'de'
   baseDirFollowsSourceDir()
   attributes 'toc': 'left'
   attributes 'toclevels': '3'
   attributes 'imagesdir': file('doc')
-  attributes 'imagesoutdir': file('build/pdf/de/images')
+  attributes 'imagesoutdir': file('build/pdf/images')
   theme 'a4'
   fontsDir file('fonts')
   sourceDir file('doc')
