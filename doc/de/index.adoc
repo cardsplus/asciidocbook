@@ -8,7 +8,11 @@
 :hyphens: de
 :lang: de
 :imagesdir: ..
-= Titel
+= Agiler dokumentieren mit cards+
+
+Dokumente wie Quelltext inkrementell entwickeln und mit hoher Qualität pflegen.
+Dokumentieren wird zur leistbaren Aufgabe der ganzen Organisation.
+Dokumentierte Informationen werden prüfbar, ihre Qualität meßbar.
 
 Powered by
 
@@ -18,34 +22,78 @@ include::0v/vorwort.adoc[]
 
 include::0v/hinweis.adoc[]
 
-include::0v/prolog.adoc[]
+include::0v/einleitung.adoc[]
+
+= Jetzt hab ich's
+
+#tbd# Von der Idee zur Vision
+
+include::01/prolog.adoc[]
 
 include::01/kapitel.adoc[]
 
+= Endlich geht es los!
+
+#tbd# Der Auftrag ist da, wir starten, Forming-Phase im Team
+
+include::02/prolog.adoc[]
+
 include::02/kapitel.adoc[]
+
+= So viel Neues..
+
+#tbd# Wir sind kreativ, Storming-Phase im Team
+
+include::03/prolog.adoc[]
 
 include::03/kapitel.adoc[]
 
+= Es läuft!
+
+#tbd# Wir sind im Fluss, Performing-Phase im Team
+
+include::04/prolog.adoc[]
+
 include::04/kapitel.adoc[]
+
+= Fertig!
+
+#tbd# Wir haben das Ziel erreicht, Team löst ich auf
+
+include::05/prolog.adoc[]
 
 include::05/kapitel.adoc[]
 
+= Alles auf Anfang
+
+#tbd# Neuer Auftrag, neues Team
+
+include::06/prolog.adoc[]
+
 include::06/kapitel.adoc[]
+
+= tbd
+
+#tbd# Wartung, kleines Team
+
+include::07/prolog.adoc[]
 
 include::07/kapitel.adoc[]
 
 include::9z/danksagung.adoc[]
+
+= tbd
 
 include::aa/anhang.adoc[]
 
 include::ab/anhang.adoc[]
 
 [glossary]
-== Glossar
+== Stichwortverzeichnis
 
 include::term/*.adoc[]
 
 [bibliography]
-== Referenzen
+== Literaturverzeichnis
 
 include::ref/*.adoc[]

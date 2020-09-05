@@ -1,5 +1,6 @@
+:imagesdir: ..
 [preface]
-== Prolog: Der Reise-Butler
+== Prolog
 
 === Die Idee
 

@@ -1,3 +1,13 @@
+:table-caption: Tab.
+:example-caption: Bsp.
+:figure-caption: Abb.
+:appendix-caption: Anhang
+:chapter-label: 
+:toc-title: Inhalt
+:icons: font
+:hyphens: de
+:lang: de
+:imagesdir: ..
 = Pitch für `cards+`
 
 == Vorwort

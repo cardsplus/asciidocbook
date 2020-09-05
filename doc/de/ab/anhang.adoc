@@ -1,3 +1,4 @@
+:imagesdir: ..
 [appendix]
 == Bla blubb
 
