@@ -1,11 +1,6 @@
 = Asciidoc book
 
-== Gradle
-
- ./gradlew clean
- ./gradlew build
- ./gradlew asciidoctor
- ./gradlew asciidoctorPdf
+== Asciidoctor
 
 https://asciidoctor.org/
 
@@ -19,10 +14,6 @@ https://asciidoctor.org/docs/user-manual/
 
 https://docs.atlas.oreilly.com/writing_in_asciidoc.html
 
-https://asciidoctor.github.io/asciidoctor-gradle-plugin/development-3.x/user-guide/
-
-https://github.com/asciidoctor/asciidoctor-gradle-plugin
-
 https://github.com/asciidoctor/asciidoctor-diagram
 
 https://github.com/asciidoctor/asciidoctor-pdf
@@ -33,11 +24,28 @@ https://github.com/asciidoctor/asciidoctor-pdf/blob/master/data/themes/default-t
 
 https://github.com/asciidoctor/asciidoctor-extensions-lab
 
+== Gradle
+
+ ./gradlew clean
+ ./gradlew build
+ ./gradlew html
+ ./gradlew pdf
+ 
+https://gradle.org/
+
+https://asciidoctor.github.io/asciidoctor-gradle-plugin/development-3.x/user-guide/
+
+https://github.com/asciidoctor/asciidoctor-gradle-plugin
+
 == Github
 
  git remote add upstream https://github.com/cardsplus/asciidocbook.git
  git fetch upstream
  git merge upstream/master
+
+https://docs.github.com/en/github/getting-started-with-github
+
+https://docs.github.com/en/github/getting-started-with-github/fork-a-repo
 
 https://docs.github.com/en/github/building-a-strong-community/adding-a-license-to-a-repository
 
