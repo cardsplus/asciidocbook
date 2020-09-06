@@ -1,7 +1,9 @@
 Asciidoc::
 
+[#Asciidoc]
 Lorem ipsum dolor sit amet.
 
 Asciidoctor::
 
+[#Asciidoctor]
 Lorem ipsum dolor sit amet.
