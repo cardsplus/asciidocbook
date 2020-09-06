@@ -78,7 +78,9 @@ include::07/kapitel.adoc[]
 
 include::9z/danksagung.adoc[]
 
-= tbd
+= Zusammenfassung
+
+#tbd# Lessons learned, Fazit
 
 include::aa/anhang.adoc[]
 
