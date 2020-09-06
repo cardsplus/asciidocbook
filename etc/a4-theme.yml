@@ -30,6 +30,14 @@ font:
             bold: Cousine-Bold.ttf
             italic: Cousine-Italic.ttf
             bold_italic: Cousine-BoldItalic.ttf
+        # https://github.com/googlefonts/noto-emoji
+        Emoji:
+            normal: NotoEmoji-Regular.ttf
+            bold: NotoEmoji-Regular.ttf
+            italic: NotoEmoji-Regular.ttf
+            bold_italic: NotoEmoji-Regular.ttf
+        fallbacks:
+            - Emoji          
 base:
     font_family: Roboto
     line_height: 1.25
