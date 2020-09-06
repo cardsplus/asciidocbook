@@ -73,7 +73,7 @@ asciidoctor {
     }
     into './images'
   }
-  outputDir file('build/html')
+  outputDir file('pages/html')
   outputs.upToDateWhen { false }
 }
 task html(dependsOn: 'asciidoctor')
@@ -95,7 +95,7 @@ asciidoctorPdf {
   sources {
     include 'index.adoc', 'pitch.adoc'
   }
-  outputDir file('build/pdf')
+  outputDir file('pages/pdf')
   outputs.upToDateWhen { false }
 }
 task pdf(dependsOn: 'asciidoctorPdf')
