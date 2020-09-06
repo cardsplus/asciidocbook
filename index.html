@@ -1,17 +1,8 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="preview" href="html/index.html">
-  </head>
   <body>
   <h1><a href="html/index.html">HTML</a></h1>
-  <div w3-include-html="html/index.html"></div>
-  <h1>PDF</h1>
+  <h1><a href="pdf/index.pdf" download="cardsplusbook.pdf">PDF</a></h1>
   <iframe src="pdf/index.pdf#toolbar=0" width="100%" height="960px"></iframe>
-  <script>
-    var link = document.querySelector('link[rel="preview"]');
-    var html = link.import;
-    document.body.appendChild(html.body);
-  </script>
 </body>
 </html>
