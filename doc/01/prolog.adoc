@@ -50,10 +50,10 @@ Die Idee zum Reise-Butler ist geboren.
 Moritz beschließt, die Idee des Reise-Butlers aufzugreifen und eine erste Vision einer App zu entwickeln.
 Dazu stellt er sich folgende Fragen:
 
-* Wer sind die Nutzer für das Produkt?
-* Warum sollten sie das Produkt haben wollen?
-* Was macht das Produkt einzigartig?
-* Welche Fähigkeiten muss das Produkt haben?
+. Wer sind die Nutzer für das Produkt?
+. Warum sollten sie das Produkt haben wollen?
+. Was macht das Produkt einzigartig?
+. Welche Fähigkeiten muss das Produkt haben?
 
 Frage 1 ist leicht zu beantworten: Reisende in Zügen, Bussen, Beifahrer im Auto.
 Die App ist für jene Reisende, die sich für die vorbeiziehende Welt interessieren.

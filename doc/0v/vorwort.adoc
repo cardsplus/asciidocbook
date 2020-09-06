@@ -3,7 +3,7 @@
 == Vorwort
 
 Die Software-Industrie ist im Wandel.
-Die Herausforderungen durch _Cloud_, _Big Data_ und das Internet der Dinge erfordern eine Agilität und Transparenz bei der Entwicklung von Software.
+Die Herausforderungen durch _Cloud_, _Big Data_ und das _Internet_ der Dinge erfordern eine Agilität und Transparenz bei der Entwicklung von Software.
 Im Kern der digitalen Transformation geht es darum, dass Unternehmen und Organisationen ihre vorhandenen Prozesse und Daten digital verfügbar machen.
 Die Konsequenz ist, dass alle Unternehmen zu Softwareentwicklern werden.
 Die Entwicklung von Software ist nicht mehr beschränkt auf die IT-Branche.
