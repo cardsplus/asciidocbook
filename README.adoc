@@ -39,6 +39,7 @@ See also:
 Set environment
 
  git config --global user.name 'robertbruckbauer'
+ git config --global user.email 'brombertje@gmail.com'
 
 Set upstream
 
