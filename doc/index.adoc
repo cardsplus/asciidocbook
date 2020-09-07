@@ -8,7 +8,7 @@
 :hyphens: de
 :lang: de
 :imagesdir: .
-= Titel
+= Titel image:tux.png[width=64,role=right]
 
 Powered by
 
