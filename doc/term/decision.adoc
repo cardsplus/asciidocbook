@@ -1,0 +1,4 @@
+Decision::
+
+[#Decision]
+Lorem ipsum dolor sit amet.
