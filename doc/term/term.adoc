@@ -1,4 +1,4 @@
 Term::
 
-[#term]
+[#Term]
 Lorem ipsum bla bla bla
