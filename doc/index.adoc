@@ -30,7 +30,21 @@ include::01/kapitel.adoc[]
 
 = Endlich geht es los!
 
+#tbd# Reise-Butler 05: Ziele und Grenzen
+
+#tbd# Reise-Butler 06: Hochschulprojekt
+
+#tbd# Reise-Butler 07: Erste Entscheidungen
+
 #tbd# Der Auftrag ist da, wir starten, Forming-Phase im Team
+
+#tbd# Reise-Butler 08: Kickoff an der TU
+
+#tbd# Reise-Butler 09: Der Baustein Epic
+
+#tbd# Reise-Butler 10: Anforderungsanalyse
+
+#tbd# Reise-Butler 11: Architekturentwurf
 
 include::02/prolog.adoc[]
 
@@ -38,7 +52,19 @@ include::02/kapitel.adoc[]
 
 = So viel Neues..
 
+#tbd# Reise-Butler 12: Komponentenüberblick
+
+#tbd# Reise-Butler 13: Fachklassenmodell
+
+#tbd# Reise-Butler 14: Gemeinsame Sprache
+
 #tbd# Wir sind kreativ, Storming-Phase im Team
+
+#tbd# Beispiel Stationswissen (RISK -> ZHV) zeigt, welche Probleme entstehen, wenn zu viele Details "handgeschrieben" und nicht versioniert im Wiki geschrieben werden. Im Beispiel zeige, wie die fachliche Beschreibung aus dem Case in Asciidoc übertragen wird. Aus den Cases "Auswertung *I HG-Zeile", "Befüllung des Ausgangstopics", "Ermittlung IFOPT" und "Erzeugung UUID" wird ein einziger Case, "Haltestellen für ÖV in Deutschland liefern".
+
+#tbd# Beispiel Wendeermittlung zeigt, wie eine komplexe Logik in den Cases "Wende erzeugen", "Wende ungültig machen" und "Wendeparameter konfigurieren" sehr abstrakt dargestellt wird, im Detail aber nur in der Spezifikation erklärt.
+
+#tbd# Beispiel Fahrplanerstellung zeigt, wie viel zu viele Informationen im Wiki entstehen, weil es natürlich leichter ist. 
 
 include::03/prolog.adoc[]
 
@@ -46,13 +72,45 @@ include::03/kapitel.adoc[]
 
 = Es läuft!
 
+#tbd# Reise-Butler 15: Angemessene Dokumentation
+
+#tbd# Reise-Butler 16: Programmieren und Dokumentieren
+
+#tbd# Reise-Butler 17: Spielregeln
+
 #tbd# Wir sind im Fluss, Performing-Phase im Team
+
+#tbd# Reise-Butler 18: Erstes Produktinkrement
+
+#tbd# Reise-Butler 19: Der Baustein Case
+
+#tbd# Reise-Butler 20: Projektumfang
+
+#tbd# Reise-Butler 21: Durchstich
+
+#tbd# Regelung aus PZ, dass im Wiki *immer* der Stand der Produktion gezeigt wird.
 
 include::04/prolog.adoc[]
 
 include::04/kapitel.adoc[]
 
 = Fertig!
+
+#tbd# Reise-Butler 22: Arbeitsgruppen
+
+#tbd# Reise-Butler 23: Der Baustein Event
+
+#tbd# Reise-Butler 24: Architekturwand
+
+#tbd# Reise-Butler 25: Der Baustein Entity
+
+#tbd# Reise-Butler 26: Randbedingungen
+
+#tbd# Reise-Butler 27: Weniger ist mehr
+
+#tbd# Reise-Butler 28: Umgebungsübersicht
+
+#tbd# Reise-Butler 29: Arbeitsdokumente
 
 #tbd# Wir haben das Ziel erreicht, Team löst ich auf
 
@@ -64,6 +122,16 @@ include::05/kapitel.adoc[]
 
 #tbd# Neuer Auftrag, neues Team
 
+#tbd# Reise-Butler 30: Pimp my Wiki (mit neuem Team)
+
+#tbd# Reise-Butler 31: Perspektiven
+
+#tbd# Reise-Butler 32: Qualitätsmerkmale
+
+#tbd# Reise-Butler 33: Minimum Viable Case/Product
+
+#tbd# Beispiel wie bei PZ der Austausch der Implementierung für den UIC-Adapter wegen neuer Technologie. Hervorheben, dass die Produktdokumentation weitestgehend stabil bleibt, nur die Spezifikation ändert sich natürlich.
+
 include::06/prolog.adoc[]
 
 include::06/kapitel.adoc[]
@@ -72,15 +140,21 @@ include::06/kapitel.adoc[]
 
 #tbd# Wartung, kleines Team
 
+#tbd# Vision Kontinuierliche Produktenwicklung
+
+#tbd# Vision Produktinnovation
+
+#tbd# Vision Produktkrise
+
 include::07/prolog.adoc[]
 
 include::07/kapitel.adoc[]
 
+= tbd
+
+#tbd# Lessons learned, Fazit, Kontakt
+
 include::9z/danksagung.adoc[]
-
-= Zusammenfassung
-
-#tbd# Lessons learned, Fazit
 
 include::aa/anhang.adoc[]
 
