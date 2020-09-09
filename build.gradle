@@ -89,6 +89,7 @@ asciidoctorPdf {
   attributes 'toclevels': '3'
   attributes 'imagesdir': file('doc')
   attributes 'imagesoutdir': file('build/pdf/images')
+  attributes 'media': 'print'
   theme 'a4'
   fontsDir file('fonts')
   sourceDir file('doc')
