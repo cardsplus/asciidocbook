@@ -24,8 +24,6 @@ include::0v/einleitung.adoc[]
 
 #tbd# Von der Idee zur Vision
 
-include::01/prolog.adoc[]
-
 include::01/kapitel.adoc[]
 
 = Endlich geht es los!
@@ -46,8 +44,6 @@ include::01/kapitel.adoc[]
 
 #tbd# Reise-Butler 11: Architekturentwurf
 
-include::02/prolog.adoc[]
-
 include::02/kapitel.adoc[]
 
 = So viel Neues..
@@ -65,8 +61,6 @@ include::02/kapitel.adoc[]
 #tbd# Beispiel Wendeermittlung zeigt, wie eine komplexe Logik in den Cases "Wende erzeugen", "Wende ungültig machen" und "Wendeparameter konfigurieren" sehr abstrakt dargestellt wird, im Detail aber nur in der Spezifikation erklärt.
 
 #tbd# Beispiel Fahrplanerstellung zeigt, wie viel zu viele Informationen im Wiki entstehen, weil es natürlich leichter ist. 
-
-include::03/prolog.adoc[]
 
 include::03/kapitel.adoc[]
 
@@ -90,8 +84,6 @@ include::03/kapitel.adoc[]
 
 #tbd# Regelung aus PZ, dass im Wiki *immer* der Stand der Produktion gezeigt wird.
 
-include::04/prolog.adoc[]
-
 include::04/kapitel.adoc[]
 
 = Fertig!
@@ -114,8 +106,6 @@ include::04/kapitel.adoc[]
 
 #tbd# Wir haben das Ziel erreicht, Team löst ich auf
 
-include::05/prolog.adoc[]
-
 include::05/kapitel.adoc[]
 
 = Alles auf Anfang
@@ -132,8 +122,6 @@ include::05/kapitel.adoc[]
 
 #tbd# Beispiel wie bei PZ der Austausch der Implementierung für den UIC-Adapter wegen neuer Technologie. Hervorheben, dass die Produktdokumentation weitestgehend stabil bleibt, nur die Spezifikation ändert sich natürlich.
 
-include::06/prolog.adoc[]
-
 include::06/kapitel.adoc[]
 
 = tbd
@@ -145,8 +133,6 @@ include::06/kapitel.adoc[]
 #tbd# Vision Produktinnovation
 
 #tbd# Vision Produktkrise
-
-include::07/prolog.adoc[]
 
 include::07/kapitel.adoc[]
 
