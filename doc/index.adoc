@@ -22,13 +22,13 @@ include::0v/einleitung.adoc[]
 
 = Jetzt hab ich's
 
-#tbd# Von der Idee zur Vision
-
 include::01/kapitel.adoc[]
+
+#tbd# Reise-Butler 05: Ziele und Grenzen
 
 = Endlich geht es los!
 
-#tbd# Reise-Butler 05: Ziele und Grenzen
+include::02/kapitel.adoc[]
 
 #tbd# Reise-Butler 06: Hochschulprojekt
 
@@ -44,9 +44,9 @@ include::01/kapitel.adoc[]
 
 #tbd# Reise-Butler 11: Architekturentwurf
 
-include::02/kapitel.adoc[]
-
 = So viel Neues..
+
+include::03/kapitel.adoc[]
 
 #tbd# Reise-Butler 12: Komponentenüberblick
 
@@ -62,9 +62,9 @@ include::02/kapitel.adoc[]
 
 #tbd# Beispiel Fahrplanerstellung zeigt, wie viel zu viele Informationen im Wiki entstehen, weil es natürlich leichter ist. 
 
-include::03/kapitel.adoc[]
-
 = Es läuft!
+
+include::04/kapitel.adoc[]
 
 #tbd# Reise-Butler 15: Angemessene Dokumentation
 
@@ -84,9 +84,9 @@ include::03/kapitel.adoc[]
 
 #tbd# Regelung aus PZ, dass im Wiki *immer* der Stand der Produktion gezeigt wird.
 
-include::04/kapitel.adoc[]
-
 = Fertig!
+
+include::05/kapitel.adoc[]
 
 #tbd# Reise-Butler 22: Arbeitsgruppen
 
@@ -106,9 +106,9 @@ include::04/kapitel.adoc[]
 
 #tbd# Wir haben das Ziel erreicht, Team löst ich auf
 
-include::05/kapitel.adoc[]
-
 = Alles auf Anfang
+
+include::06/kapitel.adoc[]
 
 #tbd# Neuer Auftrag, neues Team
 
@@ -122,9 +122,9 @@ include::05/kapitel.adoc[]
 
 #tbd# Beispiel wie bei PZ der Austausch der Implementierung für den UIC-Adapter wegen neuer Technologie. Hervorheben, dass die Produktdokumentation weitestgehend stabil bleibt, nur die Spezifikation ändert sich natürlich.
 
-include::06/kapitel.adoc[]
+= #tbd#
 
-= tbd
+include::07/kapitel.adoc[]
 
 #tbd# Wartung, kleines Team
 
@@ -134,11 +134,9 @@ include::06/kapitel.adoc[]
 
 #tbd# Vision Produktkrise
 
-include::07/kapitel.adoc[]
-
-= tbd
-
 #tbd# Lessons learned, Fazit, Kontakt
+
+= #tbd#
 
 include::9z/danksagung.adoc[]
 

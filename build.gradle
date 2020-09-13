@@ -93,7 +93,7 @@ asciidoctorPdf {
   fontsDir file('fonts')
   sourceDir file('doc')
   sources {
-    include 'index.adoc', 'pitch.adoc'
+    include 'index.adoc'
   }
   outputDir file('pages/pdf')
   outputs.upToDateWhen { false }

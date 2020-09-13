@@ -53,8 +53,15 @@ blockquote:
 code:
     font_family: Cousine
     font_size: $base_font_size_small
+example:
+    font_size: $base_font_size_small
 literal:
     font_family: Cousine
+sidebar:
+    font_size: $base_font_size_small
+    title:
+        align: justify
+        font_size: $base_font_size
 table:
     background-color: transparent
 ulist:

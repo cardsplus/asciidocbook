@@ -38,7 +38,9 @@ Da fällt ihm die Geschichte mit dem seltsamen Gebäude wieder ein.
 Er schnappt sich sein Tablet und gibt “android app berg kirche poi erkennen”.
  
 .Suchergebnis bei Google (2017)
+====
 #tbd# Bild
+====
 
 Am Ende von Moritz‘ Recherche ist klar, dass es offensichtlich noch keine App gibt, die sein konkretes Problem löst.
 Er bekommt aber den Eindruck, dass es die technischen Möglichkeiten wie GPS und weitere Sensoren im Smartphone und die notwendigen Daten bei Google, Wikipedia oder Facebook gibt, um eine App zu realisieren.
@@ -167,7 +169,7 @@ Er lässt sich besser vom Begriff Reise unterscheiden, hat einen Bezug zu Fahrpl
 
 .Seite Fahrgast
 ====
-tbd Bild
+#tbd# Bild
 ====
 
 Die Erklärung besteht gerade mal aus zwei Sätzen.
@@ -196,7 +198,7 @@ Er prüft, ob alle Links in dieser Seite plausibel sind.
 
 .Seiteninformation Fahrgast
 ====
-tbd Bild
+#tbd# Bild
 ====
 
 Diese kleine Aufmerksamkeit kostet ihn nur wenig Zeit.
@@ -207,7 +209,7 @@ Die Aktivitäten im Glossar werden durch die Anzeige der zuletzt geänderten Beg
 
 .Startseite für das Glossar
 ====
-tbd Bild
+#tbd# Bild
 ====
 
 Suchen ist bereits Teil unserer Kultur.
@@ -216,7 +218,7 @@ Was liegt also näher, als diese Idee auch im Wiki umzusetzen.
  
 .Volltextsuche im Glossar
 ====
-tbd Bild
+#tbd# Bild
 ====
 
 Die Suche nach Stichworten ist wesentlich exakter als die Volltextsuche.
@@ -225,7 +227,7 @@ So lässt sich schrittweise das Suchergebnisse verfeinern.
  
 .Stichwortsuche im Glossar
 ====
-tbd Bild
+#tbd# Bild
 ====
 
 Im Verlauf der weiteren Analyse wird Moritz die Begriffe noch weiter verfeinern, manche sogar in ihrer Bedeutung schärfen.
