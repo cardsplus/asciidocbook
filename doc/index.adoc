@@ -24,11 +24,19 @@ include::0v/einleitung.adoc[]
 
 = Jetzt hab ich's
 
+Powered by
+
+image::github.png[]
+
 include::01/kapitel.adoc[]
 
 #tbd# Reise-Butler 05: Ziele und Grenzen
 
 = Endlich geht es los!
+
+Powered by
+
+image::github.png[]
 
 include::02/kapitel.adoc[]
 
@@ -48,6 +56,10 @@ include::02/kapitel.adoc[]
 
 = So viel Neues..
 
+Powered by
+
+image::github.png[]
+
 include::03/kapitel.adoc[]
 
 #tbd# Reise-Butler 12: Komponentenüberblick
@@ -65,6 +77,10 @@ include::03/kapitel.adoc[]
 #tbd# Beispiel Fahrplanerstellung zeigt, wie viel zu viele Informationen im Wiki entstehen, weil es natürlich leichter ist. 
 
 = Es läuft!
+
+Powered by
+
+image::github.png[]
 
 include::04/kapitel.adoc[]
 
@@ -88,6 +104,10 @@ include::04/kapitel.adoc[]
 
 = Fertig!
 
+Powered by
+
+image::github.png[]
+
 include::05/kapitel.adoc[]
 
 #tbd# Reise-Butler 22: Arbeitsgruppen
@@ -110,6 +130,10 @@ include::05/kapitel.adoc[]
 
 = Alles auf Anfang
 
+Powered by
+
+image::github.png[]
+
 include::06/kapitel.adoc[]
 
 #tbd# Neuer Auftrag, neues Team
@@ -126,6 +150,10 @@ include::06/kapitel.adoc[]
 
 = #tbd#
 
+Powered by
+
+image::github.png[]
+
 include::07/kapitel.adoc[]
 
 #tbd# Wartung, kleines Team
@@ -139,6 +167,10 @@ include::07/kapitel.adoc[]
 #tbd# Lessons learned, Fazit, Kontakt
 
 = #tbd#
+
+Powered by
+
+image::github.png[]
 
 include::9z/danksagung.adoc[]
 
