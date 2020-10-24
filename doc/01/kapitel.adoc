@@ -112,23 +112,40 @@ Die Methode kennt er schon.
 Er weiß, er kann sie sofort einsetzen, noch bevor es ein Projekt gibt.
 Sie wird ihm helfen, seine Dokumentation in einem Wiki inkrementell zu erstellen.
 
-.Die Methode `cards+` auf einen Blick
+.Die Methode `cards+` ist ein agiler Ansatz, um Wissensmanagement in einem Software-Entwicklungsprojekt richtig zu organisieren und zielgerichtet und inkrementell zu dokumentieren. 
 ****
-Die Methode `cards+` ist ein agiler Ansatz, um Wissensmanagement in einem Software-Entwicklungsprojekt richtig zu organisieren und zielgerichtet und inkrementell zu dokumentieren.
-Mit einer festen Struktur in einem Wiki und Prinzipien und Praktiken der Entwickler bringt `cards+` Effizienz und Qualität in die Erstellung und Pflege einer Produktdokumentation.
+Mit dem Ein­satz von cards+ ist jede agile Pro­jekt­organi­sation in der Lage, ziel­gerich­tet und itera­tiv eine Pro­dukt­doku­men­tation zu ent­wickeln.
+Ziel­gerich­tet bedeu­tet, dass die erstell­ten Doku­mente einen Wert für die Organi­sation haben.
+Itera­tiv bedeu­tet fort­laufende Wieder­holung, ver­bun­den mit der Chance, sich Schritt für Schritt zu ver­bessern.
+Mit dem Fort­schritt in der Ent­wick­lung der Soft­ware wächst auch die Pro­dukt­doku­men­tation, als inte­gra­ler Bestand­teil des Pro­dukt­inkre­men­tes.
+Doku­men­tieren wird zur leist­baren Auf­gabe des gesam­ten Teams.
+Die Doku­men­tation wird prüf­bar, die Quali­tät mess­bar.
+
+cards+ unter­­stützt eine Pro­jekt­­­organi­­sation, Wissens­­manage­ment in einem agilen Ent­wick­­lungs­­­pro­jekt rich­­tig zu organi­­sieren.
+Der Pro­dukt­verant­­wort­liche setzt cards+ ein, um ziel­­­gerich­­tet und inkre­men­tell sein Pro­dukt ange­messen zu doku­men­tieren, unter­stützt durch ein selbst­organi­sier­tes Team.
+
+cards+ tritt mit dem Ver­­spre­chen an, die Erstel­lung und Pflege einer quali­tativ hoch­wer­tigen Pro­dukt­­doku­men­tation in einem Wiki zu ermög­­lichen.
+Viele Prinzi­­pien und Prak­­tiken der Ent­wick­ler gel­ten auch für Autoren in einem Wiki, in den meis­ten Fäl­len in nur leicht abge­wandel­ter Form.
+
+cards+ ist kein geschlos­senes Vor­­gehens­­modell, kein iso­lier­ter Pro­zess.
+Aus diesem Grund kann cards+ sehr gut in beste­hende Pro­zesse inte­griert wer­den. 
 ****
 
 Das Wiki ist für Moritz ein sehr wichtiges Werkzeug.
 Er kann und will jederzeit an den Inhalten arbeiten, auch unterwegs.
-Moritz entscheidet sich für Confluence.
+Moritz entscheidet sich für _Confluence_.
 Sein Arbeitgeber betreibt eine eigene Installation.
 Dort kann er einen eigenen Bereich für die Produktdokumentation des Reise-Butlers einrichten.
 
-.Confluence macht es möglich.
+._Confluence_ vom australischen Unternehmen Atlassian ist ein leistungsfähiges Wiki und sehr gut geeignet für den Aufbau einer Produktdokumentation. _Confluence_ hat alle Funktionen, die notwendig sind für eine erfolgreiche Umsetzung der Methode `cards+`.
 ****
-Confluence vom australischen Hersteller Atlassian ist ein leistungsfähiges Wiki.
-Ein Confluence-Bereich ist sehr gut geeignet für den Aufbau einer Produktdokumentation.
-Confluence hat alle Funktionen, die notwendig sind für die Umsetzung der Methode `cards+`.
+Ohne ein Wiki wird die Methode cards+ nicht gelin­gen!
+_Confluence_ ist mit Sicher­heit eine gute Wahl.
+Durch die große Zahl an Add-Ons gibt es prakt­isch für jedes Prob­lem im Zusam­men­hang mit Doku­men­tation eine brauch­bare Lösung.
+Die Kom­bina­tion von _Confluence_ und `cards+` ist in der Praxis mehr­fach erprobt.
+Sie ver­setzt jedes agile Ent­wick­lungs­pro­jekt in die Lage, Pro­dukt­wissen schnell und in hoher Quali­tät zu ent­wickeln und ohne Hür­den allen inter­essierten Par­teien zur Ver­fügung zu stellen.
+
+Das Wiki bil­det das zen­trale Ver­zeich­nis für doku­men­tierte Infor­matio­nen in ande­ren Werk­zeu­gen, z.B. Spezifi­katio­nen in einem Git-Reposi­tory, Test­pläne in einem Test­manage­ment­system oder Normen, Richt­linien, Ver­ord­nun­gen, die für das Pro­dukt rele­vant sind, in einem Doku­men­ten­manage­ment­system.
 ****
 
 Den Baustein <<Topic>> will Moritz nutzen, um die Vision des Reise-Butlers zu strukturieren.
@@ -148,7 +165,7 @@ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit ame
 
 == Domänensprache
 
-Nach der Einrichtung des Bereiches für die Produktdokumentation des Reise-Butlers in Confluence beginnt Moritz mit dem Glossar, einem wichtigen Qualitätsmerkmal von `cards+`.
+Nach der Einrichtung des Bereiches für die Produktdokumentation des Reise-Butlers in _Confluence_ beginnt Moritz mit dem Glossar, einem wichtigen Qualitätsmerkmal von `cards+`.
 Moritz fängt mit den of-fensichtlichen Begriffen an.
 Beim Reise-Butler geht es um eine Reise.
 Klar.
@@ -190,7 +207,7 @@ Begriffe, die mit einer Ziffer beginnen, fasst er ebenfalls zusammen.
 Jeder dieser Übersichtsseiten zeigt eine Liste aller Begriffe, die diesen Anfangsbuchstaben haben.
 Damit findet jeder Leser schnell heraus, ob es überhaupt den Begriff im Glossar gibt, den er sucht.
 
-Schnell stellt Moritz fest, dass Confluence bei der Eingabe von Links so gewisse Tücken hat.
+Schnell stellt Moritz fest, dass _Confluence_ bei der Eingabe von Links so gewisse Tücken hat.
 Durch _Copy&Paste_ aus der Leseansicht heraus werden Verknüpfungen zu externen Web-Links, um nur ein Problem zu nennen.
 Das ist nicht gut.
 Zum Abschluss der Bearbeitung einer Seite wirft Moritz darum immer einen kurzen Blick auf die Seiteninformation.
