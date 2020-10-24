@@ -1,0 +1,117 @@
+= Asciidoc book style guide
+
+== Struktur
+
+Das Buch wird in der Datei `index.adoc` zusammengestellt.
+Diese Datei bestimmt den Titel des Buchs.
+Diese Datei definierte globale Attribute, die für alle Kapitel gelten.
+
+=== Erste Seite
+
+Wenn man ein Buch aufschlägt, dann hat man die erste Seite vor sich.
+Die erste Seite wird auch Schmutztitel genannt.
+Auf dieser ersten Seite stehen Autor, Titel und Untertitel des Buches, manchmal das Genre und manchmal der Verlag.
+Auf der ersten Seite erscheint keine Seitenzahl, obwohl dort bereits die Seitenzählung beginnt.
+
+=== Zweite Seite
+
+Die zweite Seite bleibt für gewöhnlich leer.
+Auf der zweiten Seite erscheint keine Seitenzahl.
+
+=== Dritte Seite
+
+Auf der dritten Seite wird erneut Autor, Titel, Untertitel und Verlag genannt, diesmal in größerer Schrift als auf der ersten Seite.
+Auf der dritten Seite erscheint keine Seitenzahl.
+
+=== Vierte Seite
+
+Auf der vierten Seite erscheint das Impressum und verlagsabhängig verschiedene weitere Informationen, z.B. der Copyright-Vermerk, ISBN und Preis.
+Auf der vierten Seite erscheint keine Seitenzahl.
+
+=== Fünfte Seite
+
+Die fünfte Seite und ggfs. weitere Seiten enthalten das Inhaltsverzeichnis.
+Ab der fünften Seite erscheinen Seitenzahlen.
+
+=== Vorwort
+
+Im Vorwort gibt der Autor einen Überblick über das Buch.
+
+Der Name für das Verzeichnis ist immer `0v`.
+
+Das Vorwort wird durch `[preface]` markiert.
+Siehe Abschnitt https://asciidoctor.org/docs/user-manual/#user-preface[Preface] im _Users Guide_.
+
+=== Kapitel
+
+Jedes Kapitel befindet sich in einem eigenen Verzeichnis.
+Der Name des Verzeichnis ist eine zweistellig Zahl.
+Die Zählung beginnt bei `01`.
+Dadurch ist die Anzahl der Kapitel auf 99 beschränkt.
+
+=== Anhang
+
+Jeder Anhang befindet sich in einem eigenen Verzeichnis.
+Dort befindet sich immer die Datei `anhang.adoc`.
+
+Der Name des Verzeichnis beginnt immer mit einem `a`, gefolgt von einem weiteren Buchstaben.
+Dadurch ist die Anzahl der Anhänge auf 26 beschränkt.
+
+Jeder Anhang wird durch `[appendix]` markiert.
+Siehe Abschnitt https://asciidoctor.org/docs/user-manual/#user-appendix[Apendix] im _Users Guide_.
+
+=== Danksagung
+
+In der Danksagung richtet der Autor persönliche Worte an die Leser.
+
+Der Name für das Verzeichnis ist immer `9z`.
+
+Die Danksagung wird durch `[dedication]` markiert.
+Siehe Abschnitt https://asciidoctor.org/docs/user-manual/#user-dedication[Dedication] im _Users Guide_.
+
+=== Stichwortverzeichnis
+
+Das Stichwortverzeichnis ist eine Sammlung von Begriffe.
+Begriffe können in den Kapiteln und Anhängen referenziert werden.
+Damit werden sie automatisch optisch hervorgehoben.
+
+Die Begriffe sind Dateien im Verzeichnis `term`.
+Alle Dateien werden automatisch in alphabetischer Reihenfolge eingefügt.
+
+Das Literaturverzeichnis wird durch `[glossary]` markiert.
+Siehe Abschnitt https://asciidoctor.org/docs/user-manual/#user-glossary[Glossary] im _Users Guide_.
+
+=== Literaturverzeichnis
+
+Das Literaturverzeichnis ist eine Sammlung von Verweisen auf Texte anderen Autoren.
+Verweise können in den Kapiteln und Anhängen referenziert werden.
+Damit werden sie automatisch optisch hervorgehoben.
+
+Die Verweise sind Dateien im Verzeichnis `ref`.
+Alle Dateien werden automatisch in alphabetischer Reihenfolge eingefügt.
+
+Das Literaturverzeichnis wird durch `[bibliography]` markiert.
+Siehe Abschnitt https://asciidoctor.org/docs/user-manual/#user-biblio[Bibliography] im _Users Guide_.
+
+== Attribute
+
+In der Datei `index.adoc` werden folgende globale Attribute definiert:
+
+[source,asciidoc]
+----
+include::doc/index.adoc[tags=attr]
+----
+
+tbd :imagesdir:
+
+== Elemente
+
+tbd *fett*
+
+tbd _kursiv_
+
+tbd [abstract]
+
+tbd Sidebar
+
+tbd Example

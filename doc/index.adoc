@@ -1,3 +1,4 @@
+// tag::attr[]
 :table-caption: Tab.
 :example-caption: Bsp.
 :figure-caption: Abb.
@@ -7,6 +8,7 @@
 :icons: font
 :hyphens: de
 :lang: de
+// end::attr[]
 :imagesdir: .
 = Titel
 
