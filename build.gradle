@@ -6,9 +6,9 @@
 plugins {
     id 'base'
     id "com.palantir.git-version" version "0.12.3"
-    id "org.asciidoctor.jvm.convert" version "3.2.0"
-    id 'org.asciidoctor.jvm.pdf' version '3.2.0'
-    id 'org.asciidoctor.jvm.gems' version '3.2.0'
+    id "org.asciidoctor.jvm.convert" version "3.3.0"
+    id 'org.asciidoctor.jvm.pdf' version '3.3.0'
+    id 'org.asciidoctor.jvm.gems' version '3.3.0'
 }
 
 description = 'cards+ asciidoc book'
@@ -29,10 +29,10 @@ asciidoctorj {
   requires file('src/main/ruby/glob-include-processor.rb')
   modules {
     diagram { 
-      version '2.0.2'
+      version '2.1.0'
     }
     pdf { 
-      version '1.5.3'
+      version '1.5.4'
     }
   }
   logLevel 'INFO'
