@@ -15,7 +15,7 @@ description = 'cards+ asciidoc book'
 version = gitVersion();
 
 repositories {
-    jcenter()
+    mavenCentral()
     ruby.gems()
 }
 
