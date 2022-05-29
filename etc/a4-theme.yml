@@ -5,14 +5,12 @@ page:
     size: A4
 header:
     height: 0.5in
-    line_height: 1
     recto_content:
         center: '{document-title}'
     verso_content:
         center: '{document-title}'
 footer:
     height: 0.5in
-    line_height: 1
     recto_content:
         right: '{chapter-title} | *{page-number}*'
     verso_content:
@@ -42,7 +40,32 @@ font:
             - Emoji          
 base:
     font_family: Roboto
+    line_height: 1.25
+abstract:
+    font_size: $base_font_size_large
+    line_height: $base_line_height
+    font_style: italic
+    first_line_font_style: italic
+    align: right
+    padding: [0, 0, 0, 1in]
+blockquote:
+    font_size: $base_font_size_small
 code:
     font_family: Cousine
+    font_size: $base_font_size_small
+example:
+    font_size: $base_font_size_small
 literal:
     font_family: Cousine
+sidebar:
+    font_size: $base_font_size_small
+    title:
+        align: justify
+        font_size: $base_font_size
+table:
+    background-color: transparent
+ulist:
+    marker:
+        disc:
+            # https://www.w3schools.com/charsets/ref_utf_geometric.asp
+            content: "\u203a"

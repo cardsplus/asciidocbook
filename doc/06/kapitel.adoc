@@ -1,55 +1,9 @@
 :imagesdir: ..
-== Bilder
-
-[abstract]
-Ein Bild ist ein Foto, eine Grafik oder ein Diagramm.
-Eine Grafik ist im weitesten Sinn der Sammelbegriff für eine künstlerische oder technische Zeichnung.
-Ein Diagramm ist eine grafische Darstellung von Daten, Sachverhalten oder Informationen.
-
-=== Tux (png)
+== Kapitel
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-[.float-group]
---
-[.left]
-image::tux.png[width=100]
-
 At vero eos et accusam et justo duo dolores et ea rebum.
---
-
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-=== Tux (jpg)
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-[.float-group]
---
-[.left]
-image::tux.jpg[width=100]
-
-At vero eos et accusam et justo duo dolores et ea rebum.
---
-
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-=== Tux (svg)
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-[.float-group]
---
-[.left]
-image::tux.svg[width=100]
-
-At vero eos et accusam et justo duo dolores et ea rebum.
---
-
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-=== Klassendiagramm
-
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
 .PlantUML

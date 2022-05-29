@@ -1,0 +1,111 @@
+:imagesdir: ../..
+[preface]
+== Einleitung
+
+=== Dokumentierte Informationen
+
+Unter­nehmen brau­chen das Wissen ihrer Be­schäf­tig­ten.
+Wissen muss be­wahrt und ge­teilt wer­den.
+Wissens­inseln sind ein Risi­ko in jeder Orga­nisation.
+Durch Fluktuation oder durch Änderungen in der Organisation entsteht ein regelmäßiger Wechsel beim Personal und bei anderen interessierten Parteien.
+Damit ist immer die Gefahr verbunden, dass Wissen verloren geht.
+Viel Wissen steckt auch in Soft­ware.
+Der Verlust von Wissen in Entwicklungsprojekten ist gefährlich.
+Die Produktvision geht verloren.
+Qualität und Produktivität sinkt.
+Anpassungen und Erweiterungen der Software werden schwieriger.
+Es ist nicht klar, was die Software jetzt schon leistet.
+Die Innovationskraft der Organisation sinkt.
+Agile Soft­ware-Ent­wick­lung ist darum Teil der digi­talen Trans­for­mation in vielen Unter­neh­men.
+Dabei kommt es aber nicht nur darauf an, agil vor­zu­gehen, son­dern gene­rell flexi­bel zu sein.
+Agili­tät wird häu­fig in einem Atem­zug mit Ge­schwin­dig­keit oder Effi­zienz ge­nannt.
+Aber über Doku­men­tation wird nicht so häu­fig ge­spro­chen.
+Es gibt die einen, die auf Doku­men­tation ver­zich­ten wollen.
+
+[abstract]
+»Code und Test­pläne reichen!« sagen sie.
+
+Sie sagen, auf Dokumentation kann in agilen Projekten sogar verzichtet werden und berufen sich dabei auf Punkt 2 im Manifest für agile Software-Entwicklung:
+
+[abstract]
+»Wir schätzen funktionierende Software mehr als umfassende Dokumentation.«
+
+Sie vergessen dabei, dass es im Manifest ganz klar heißt, dass beide Werte wichtig sind, wir aber den Wert auf der linken Seite höher einschätzen.
+Andere wollen wiede­rum alles ganz genau auf­schrei­ben.
+
+[abstract]
+»Wissen darf nicht ver­loren gehen!« for­dern sie.
+
+Dokumentation ist wichtig und (eigentlich) Pflicht.
+Abhängig von der Projektorganisation und dem gewählten Vorgehen - phasen-orientiert, iterativ oder agil - schreiben Projektmitarbeiter verschiedener technischer Disziplinen im Laufe der Zeit eine ganze Reihe dokumentierter Informationen:
+
+* Die Nutzer der Software benötigen Handbücher, Trainingsunterlagen und Online-Hilfen, um die Software verwenden zu können.
+
+* Die Betriebsorganisation braucht Anleitungen für Einführung und Betrieb der Software und Handlungsanweisungen für die Behebung von Störungen.
+
+* Produktverantwortliche braucht eine Systembeschreibung für sein Anforderungsmanagement.
+In einem agilen Entwicklungsprozess schreiben sie _User Stories_ in einem _Product Backlog_. 
+
+* Produktverantwortliche muss den Architekturentwurf für das System kennen.
+Er muss Kosten für den Betrieb und den Einsatz von Technologien gegenüber dem Auftraggeber begründen können.
+Selbst wenn ein Auftraggeber akzeptiert, dass eine Software-Architektur »einfach so« entsteht, sollten die fundamentalen Entscheidungen und grundlegenden Konzepte dann doch dokumentiert werden.
+
+* Entwickler kommentieren ihren Code. Sie schreiben Spezifikationen. Oft nutzen sie UML-Diagramme, um Zusammenhänge darzustellen. Sie tun das in der Regel für sich und andere Entwickler im Team.
+
+An dokumentierten Informationen mangelt es in den meisten Projekten daher nicht.
+
+[[_sw_digital]]
+=== Digitale Transformation
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+[[_sw_agile]]
+=== Agile Software-Entwicklung
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+[[_ddd_design]]
+=== Strate­gisches und takt­isches Design
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+[[_ddd_lang]]
+=== Gemeinsame Sprache
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+[[_sw_quality]]
+=== Qualitätspolitik
+
+Quali­täts­poli­tik kennen wir aus dem Sprach­gebrauch der <<ISO-9001>>.
+Mit dem Begriff «Poli­tik» tun sich viele schwer.
+Im Englischen spricht man von _«Policy»_, über­setzt also Strate­gie oder Leit­linie.
+Agile Ent­wick­lungs­­pros­zesse haben sich aus der Erkennt­nis ent­wickelt, dass sich Anfor­derungen für ein IT-System nie so exakt spezifi­zieren lassen, dass kein Spiel­raum für Inter­preta­tionen bleibt.
+Die Welt dreht sich wäh­rend der Reali­sierung im Projekt wei­ter.
+Was heute eine gute Idee ist, kann mor­gen schon ein alter Hut sein.
+Steuerungs­maß­nahmen für die Qualität eines Ent­wicklungs­prozesses, wie sie in der <<ISO-9001>> von einer Organi­sation gefordert werden, sind nur mit genauer Kennt­nis der Ent­wick­lungs­erge­bnisse mög­lich.
+
+Eine Doku­men­tation muss Quali­täts­merk­male wie Voll­ständig­keit und Richtig­keit auf­weisen.
+Die <<ISO-9001>> lehrt uns, dass Quali­täts­merk­male mess­bar sein müssen.
+Die <<ISO-25010>> macht Vor­schläge für die Kate­gori­sie­rung von Quali­täts­merk­malen.
+Eine voll­stän­dige und kor­rekte Doku­men­tation ist ein wichtiges Quali­täts­merk­mal einer Soft­ware in Bezug auf die Kate­gorie Wart­bar­keit.

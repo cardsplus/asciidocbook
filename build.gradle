@@ -63,7 +63,7 @@ asciidoctor {
   attributes 'imagesdir': 'images'
   sourceDir file('doc')
   sources {
-    include 'index.adoc'
+    include 'index.adoc', 'pitch.adoc'
   }
   resources {
     from('doc') {

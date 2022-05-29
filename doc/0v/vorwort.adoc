@@ -2,4 +2,102 @@
 [preface]
 == Vorwort
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+Die Software-Industrie ist im Wandel.
+Die Herausforderungen durch _Cloud_, _Big Data_ und das _Internet_ der Dinge erfordern eine Agilität und Transparenz bei der Entwicklung von Software.
+Im Kern der digitalen Transformation geht es darum, dass Unternehmen und Organisationen ihre vorhandenen Prozesse und Daten digital verfügbar machen.
+Die Konsequenz ist, dass alle Unternehmen zu Softwareentwicklern werden.
+Die Entwicklung von Software ist nicht mehr beschränkt auf die IT-Branche.
+Bei Software wird es künftig häufiger um individuelle Lösungen statt um Produkte gehen.
+Geschwindigkeit ist wichtig.
+Kosten und Qualität bilden ein Spannungsfeld, in dem sich eine ganze Reihe von Ideen und Konzepte etabliert haben.
+Einige davon haben direkten Einfluss auf die Dokumentation.
+
+****
+Clean Code <<ccd>>::
+
+#tbd# Praktiken und Prinzipien, Spielregeln
+
+Domain-Driven Design <<ddd>>::
+
+#tbd# gemeinsame Sprache, strategisches und taktisches Design
+
+Agilität::
+
+#tbd# Manifest agiler Software-Entwicklung, Vision, Backlog, Story
+
+Docs-as-Code <<dac>>::
+
+#tbd# Asciidoc, Wiki
+****
+
+Dokumentation ist ein Thema in *jedem* Entwicklungsprojekt.
+Information ist das Ziel, Dokumentation ist der Weg.
+Abhängig von der Organisation und vom Entwicklungsprozess gibt es Pflichtenhefte, Studien, Grob- und Fachfeinkonzepte, fachliche und technische Spezifikationen, Richtlinien, Anleitungen, Entscheidungen, Anweisungen, Skizzen, Handbücher, um nur die bekanntesten Dokumenttypen zu nennen.
+Sie unterscheiden sich
+
+* im Zeitpunkt der Erstellung.
+
+* in der Lebensdauer.
+
+* in der Zielgruppe.
+
+* in der Art des Inhaltes.
+
+* in der Komplexität.
+
+Dokumentation ist wie die Software ein fixer Bestandteil des Produktes.
+Ändert sich die Software, muss auch ein Teil der Dokumentation angepasst werden oder wird ungültig.
+In einem agilen Umfeld muss daher die Tätigkeit des Dokumentierens eine Aufgabe für das ganze Team sein.
+Genau wie beim Programmieren von Software gibt es beim Dokumentieren den Anspruch, Ergebnisse mit guter Qualität zu produzieren.
+
+Ein im Jahr 2014 gestar­tetes agiles Ent­wick­lungs­pro­jekt hatte das Ziel, das IT-System der Trans­port­leitungen der Deutschen Bahn zu moderni­sieren.
+Meine dort gewon­nenen Erkennt­nisse führ­ten zum ersten Ent­wurf von `cards+` als Ansatz für inkre­men­telles Doku­men­tieren.
+Die Prinzipien und Praktiken von `cards+` halfen uns damals, Wissen langfristig und in guter Qualität zu erhalten.
+Mit »uns« ist dabei die gesamte Projektorganisation und die interessierten Parteien des Auftraggebers gemeint.
+
+****
+Wir wollten eine Produktdokumentation, auf die wir uns verlassen können.
+Neben dem Quelltext und den Testplänen des Produktes wurde von Anfang an auch die Dokumentation für das Produkt inkrementell erarbeitet und mit dem Fortschritt der Entwicklung kontinuierlich verbessert.
+Dokumente betrachteten wir wie Quelltext und versioniert sie.
+Wir klassifizierten sie nach folgenden Kriterien.
+
+* Dokumente müssen strukturiert sein.
+* Sie müssen prüfbar sein.
+* Ihre Qualität muss messbar sein.
+
+Wir nutzen sehr viele Praktiken der Entwickler auch für die Autoren der Dokumentation:
+#KISS#, #DRY#, #INVEST#, die Pfadfinderregel.
+Die Autoren nutzten die gleichen Strategien, die Entwickler schon sehr lange anwenden, um die Komplexität von Software in den Griff zu kriegen.
+
+* Sie wählen Strukturen, die besser testbar sind als andere.
+* Sie modularisieren.
+* Sie delegieren.
+* Sie kapseln.
+
+Mit `cards+` gab es ein Konzept, das solche Strategien auch für eine Produktdokumentation bietete.
+`cards+` machte es möglich, die Ergebnisse aus der Analyse (z.B. mit Domain-Driven Design) direkt in ein Wiki zu übernehmen.
+
+Mit `cards+` hatten wir die »besseren Karten«.
+****
+
+`cards+` ist ein in sich geschlossenes Ökosystem von Bausteinen.
+Jeder Baustein hat einen klaren Zweck, eine prüfbare Struktur und einen für den Inhalt verantwortlichen Autor.
+Die Bausteine sind aufeinander abgestimmt mit dem Ziel, jede Information nur einmal zu erfassen.
+Im Wiki ist jeder Baustein eine Seite.
+Bausteine bilden Hierarchien (z.B. Topic, Epic und Case) oder werden miteinander verknüpft (z.B. Begriffe aus dem Glossar, die Lösung in einem Case).
+
+Bei `cards+` gibt es ein einfaches Kriterium, das beim Aussortieren von Information hilft.
+Eine Information, für die es einen passenden Baustein in `cards+` gibt, wird dauerhaft erfasst und inkrementell gepflegt.
+Alle andere Informationen, die zu einem bestimmten Zeitpunkt zwar wichtig und notwendig sind, später aber nicht mehr gebraucht werden, gehören zur Projektdokumentation.
+Dazu zählen beispielsweise User-Stories in einem Backlog, Studien oder Analysen.
+
+Mit `cards+` werden Entwickler zu Autoren, ohne sich extra anstrengen zu müssen.
+Sie nutzen Formate wie `Asciidoc` für Spezifikationen, die sich wie Code anfühlen.
+Sie nutzen Formate wie `JSON`, `XML` oder `YAML` für Konfigurationen, die durch Kommentare lesbar sind.
+Sie generieren Dokumentation direkt aus dem kommentierten Code.
+`cards+` als Werkzeug macht dokumentierte Informationen im Quelltext und in Testplänen für die Dokumentation im Wiki nutzbar.
+
+Wird das Konzept `cards+` von Anfang an in der Projektorganisation gelebt, dann ist eine hochwertige Produktdokumentation keine Illusion mehr.
+Der Aufwand für die Herstellung der Dokumentation mit den Prinzipien und Praktiken von `cards+` unterscheidet sich nicht von dem Aufwand, Dokumente "irgendwie" zu schreiben.
+Aber die Chancen, die sich durch eine strukturierte Produktdokumentation in einem Wiki ergeben, sind nur durch die Kreativität der Personen beschränkt, die sie lesen und pflegen.
+

@@ -1,4 +1,4 @@
-= Asciidoc book
+= Asciidoc book users guide
 
 == Asciidoctor
 

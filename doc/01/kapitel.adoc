@@ -1,135 +1,264 @@
 :imagesdir: ..
-== Schriftstile
+
+== Von der Idee zur Vision
+
+Moritz sitzt in der Bahn und sieht aus dem Fenster.
+Er hat gerade keine Lust, sich mit etwas Sinnvollem zu beschäftigen.
+Schlafen geht auch nicht, weil er einfach nicht müde genug ist.
+Außerdem ist es im Großraumwagen zu hell und zu laut.
+Sein Blick schweift in die Ferne und bleibt an einem seltsamen Gebäude hängen.
 
 [abstract]
-Text kann unterschiedliche Schriftstile haben.
-Der Schriftstil wird bestimmt durch die
-Schriftbreite (z.B. schmal oder breit),
-Schriftlage (z.B. normal oder kursiv) und
-Schriftstärke (z.B. normal oder fett). 
+«Welchen Zweck hat dieses Gebäude?», denkt er sich.
 
-=== Normale Schrift
+Einen Moment später ist es durch eine bewaldete Hügelkette verdeckt.
+Weil er eh gerade nichts Besseres zu tun hat, nimmt er sein Smartphone in die Hand.
+Er will herausfinden, was das für ein Gebäude ist.
 
+[abstract]
+«Welchen Begriff soll ich eingeben?», überlegt er.
+
+Kino, Einkaufszentrum, Museum, er hat ja keine Ahnung, wozu dieses seltsame Gebäude verwendet wird.
+Die Suche nach “seltsames Gebäude Frankfurt” bringt - wenig überraschend - keine wirklich nützliche Erkenntnis.
+Er beschließt, Google Maps zu verwenden, um das Gebäude zu finden.
+Im Reiseplan, der im Zug für Reisende verteilt wird, kann er nachlesen, dass er sich gerade irgendwo zwischen Frankfurt und Fulda befindet.
+Aber auch das hilft nicht wirklich.
+Recht schnell verliert er das Interesse an der Suche.
+
+[abstract]
+«Pah, echt umständlich und anstrengend, diese Sucherei im Internet.», ärgert er sich und legt das Smartphone zur Seite.
+
+Völlig vergessen kann Moritz diesen Vorfall nicht.
+Es ist ja auch nicht zum ersten Mal, dass er sich während einer längeren Fahrt mit dem Zug oder Auto fragt, welche spannenden Dinge da an ihm vorbeiziehen.
+
+---
+
+Eines Abends sitzt er allein in seinem Hotelzimmer.
+Da fällt ihm die Geschichte mit dem seltsamen Gebäude wieder ein.
+Er schnappt sich sein Tablet und gibt “android app berg kirche poi erkennen”.
+ 
+.Suchergebnis bei Google (2017)
+====
+#tbd# Bild
+====
+
+Am Ende von Moritz‘ Recherche ist klar, dass es offensichtlich noch keine App gibt, die sein konkretes Problem löst.
+Er bekommt aber den Eindruck, dass es die technischen Möglichkeiten wie GPS und weitere Sensoren im Smartphone und die notwendigen Daten bei Google, Wikipedia oder Facebook gibt, um eine App zu realisieren.
+Die Idee zum Reise-Butler ist geboren.
+
+---
+
+Moritz beschließt, die Idee des Reise-Butlers aufzugreifen und eine erste Vision einer App zu entwickeln.
+Dazu stellt er sich folgende Fragen:
+
+. Wer sind die Nutzer für das Produkt?
+. Warum sollten sie das Produkt haben wollen?
+. Was macht das Produkt einzigartig?
+. Welche Fähigkeiten muss das Produkt haben?
+
+Frage 1 ist leicht zu beantworten: Reisende in Zügen, Bussen, Beifahrer im Auto.
+Die App ist für jene Reisende, die sich für die vorbeiziehende Welt interessieren.
+Was gleichzeitig die Antwort auf Frage 2 ist.
+Zur Beantwortung von Frage 3 will er sich Zeit für eine Recherche im Internet und in den App-Stores von Google und Apple nehmen.
+Dabei legt er sich gleichzeitig fest, nur auf die beiden Smartphone-Plattformen von Google (Android) und Apple (iOS) zu setzen.
+Die Antwort auf Frage 4 ergibt sich aus der ursprünglichen Idee.
+Die App muss einen Reisenden in die Lage versetzen, schnell und sicher vorbeiziehende Sehenswürdigkeiten (also Gebäude, Landmarken oder Berggipfel) zu erkennen und ihm Zusatzinformationen aus dem Internet bereitzustellen.
+Sie muss leicht zu bedienen und schnell einsatzbereit sein, weil das vorbeiziehende Objekt nicht sehr lange sichtbar ist, besonders bei schnell fahrenden Zügen.
+Aus diesem Grund reicht es nicht, Objekte nur durch die Kamera zu identifizieren.
+Die App muss Kenntnis über den Verlauf der Reise haben, z.B. Start- und Zielort, Umstiege oder interessante Orte in der Umgebung der Strecke.
+
+[abstract]
+«Ich würde so eine App verwenden.», denkt er sich und zeigt sich mit dieser ersten Vision schon recht zufrieden.
+
+Wenn die App jedoch Realität werden soll, muss Moritz daraus ein Projekt machen.
+Er muss eine Grundlage schaffen, um Unterstützer zu finden.
+Einen Namen für das Projekt hat er aber:
+Der Reise-Butler.
+
+== Entscheidung für `cards+`
+
+Eine Idee ist die eine Sache, ihre Umsetzung eine andere.
+Moritz weiß, dass es ein langer Weg ist, aus der Idee des Reise-Butlers ein Produkt zu machen.
+Er will es aber probieren.
+In den agilen Methoden der Software-Entwicklung sieht er seine Chance.
+Scrum begleitet Moritz schon seit vielen Jahren.
+Er war Teil eines Scrum-Teams sowohl als Entwickler als auch als Produktverantwortlicher.
+Die Wirksamkeit von Scrum als Werkzeug steht für ihn außer Frage, er vertraut der agilen Methode.
+Ob Scrum die richtige Wahl ist, hängt nach seiner Erfahrung ganz stark von den Menschen im Projekt ab.
+Scrum ist einfach, erfordert aber ein großes Maß an Disziplin.
+Für die erfolgreiche Einführung und Durchführung von Scrum benötigt eine Projektorganisation eine ganze Menge Vertrauen der interessierten Parteien.
+Innerhalb der Projektorganisation müssen die Rollen richtig besetzt werden.
+Jeder Projektmitarbeiter muss seine Möglichkeiten im Rahmen von Scrum kennen, muss in seiner Rolle Grenzen respektieren und Pflichten akzeptieren.
+
+Das Thema Dokumentation bei agiler Software-Entwicklung durfte Moritz schon mehrfach in Scrum-Teams kontrovers diskutieren.
+Das Spektrum ist breit.
+
+[abstract]
+«Lesbarer Code ist besser als Dokumentation.», sagen die Einen.
+
+[abstract]
+«Das Backlog ist genug Dokumentation.», behaupten Andere.
+
+[abstract]
+«Funktionierende Software ist wichtiger als umfassende Dokumentation.», ist einer der Werte des agilen Manifests.
+
+Dokumentation muss angemessen sein.
+Das bedeutet für Moritz, dass sie gebraucht wird, also Leser hat, und hilfreich, vollständig und korrekt ist.
+Vermutlich sogar in dieser Reihenfolge.
+Dokumentation als Alibi möchte er verhindern.
+Aber in vielen großen Unternehmen wird der Umfang der Dokumentation durch Vorgaben und Richtlinien bestimmt.
+Moritz setzt beim Thema Dokumentation auf die Methode `cards+`.
+Die Methode kennt er schon.
+Er weiß, er kann sie sofort einsetzen, noch bevor es ein Projekt gibt.
+Sie wird ihm helfen, seine Dokumentation in einem Wiki inkrementell zu erstellen.
+
+.Die Methode `cards+` ist ein agiler Ansatz, um Wissensmanagement in einem Software-Entwicklungsprojekt richtig zu organisieren und zielgerichtet und inkrementell zu dokumentieren. 
+****
+Mit dem Ein­satz von cards+ ist jede agile Pro­jekt­organi­sation in der Lage, ziel­gerich­tet und itera­tiv eine Pro­dukt­doku­men­tation zu ent­wickeln.
+Ziel­gerich­tet bedeu­tet, dass die erstell­ten Doku­mente einen Wert für die Organi­sation haben.
+Itera­tiv bedeu­tet fort­laufende Wieder­holung, ver­bun­den mit der Chance, sich Schritt für Schritt zu ver­bessern.
+Mit dem Fort­schritt in der Ent­wick­lung der Soft­ware wächst auch die Pro­dukt­doku­men­tation, als inte­gra­ler Bestand­teil des Pro­dukt­inkre­men­tes.
+Doku­men­tieren wird zur leist­baren Auf­gabe des gesam­ten Teams.
+Die Doku­men­tation wird prüf­bar, die Quali­tät mess­bar.
+
+cards+ unter­­stützt eine Pro­jekt­­­organi­­sation, Wissens­­manage­ment in einem agilen Ent­wick­­lungs­­­pro­jekt rich­­tig zu organi­­sieren.
+Der Pro­dukt­verant­­wort­liche setzt cards+ ein, um ziel­­­gerich­­tet und inkre­men­tell sein Pro­dukt ange­messen zu doku­men­tieren, unter­stützt durch ein selbst­organi­sier­tes Team.
+
+cards+ tritt mit dem Ver­­spre­chen an, die Erstel­lung und Pflege einer quali­tativ hoch­wer­tigen Pro­dukt­­doku­men­tation in einem Wiki zu ermög­­lichen.
+Viele Prinzi­­pien und Prak­­tiken der Ent­wick­ler gel­ten auch für Autoren in einem Wiki, in den meis­ten Fäl­len in nur leicht abge­wandel­ter Form.
+
+cards+ ist kein geschlos­senes Vor­­gehens­­modell, kein iso­lier­ter Pro­zess.
+Aus diesem Grund kann cards+ sehr gut in beste­hende Pro­zesse inte­griert wer­den. 
+****
+
+Das Wiki ist für Moritz ein sehr wichtiges Werkzeug.
+Er kann und will jederzeit an den Inhalten arbeiten, auch unterwegs.
+Moritz entscheidet sich für _Confluence_.
+Sein Arbeitgeber betreibt eine eigene Installation.
+Dort kann er einen eigenen Bereich für die Produktdokumentation des Reise-Butlers einrichten.
+
+._Confluence_ vom australischen Unternehmen Atlassian ist ein leistungsfähiges Wiki und sehr gut geeignet für den Aufbau einer Produktdokumentation. _Confluence_ hat alle Funktionen, die notwendig sind für eine erfolgreiche Umsetzung der Methode `cards+`.
+****
+Ohne ein Wiki wird die Methode cards+ nicht gelin­gen!
+_Confluence_ ist mit Sicher­heit eine gute Wahl.
+Durch die große Zahl an Add-Ons gibt es prakt­isch für jedes Prob­lem im Zusam­men­hang mit Doku­men­tation eine brauch­bare Lösung.
+Die Kom­bina­tion von _Confluence_ und `cards+` ist in der Praxis mehr­fach erprobt.
+Sie ver­setzt jedes agile Ent­wick­lungs­pro­jekt in die Lage, Pro­dukt­wissen schnell und in hoher Quali­tät zu ent­wickeln und ohne Hür­den allen inter­essierten Par­teien zur Ver­fügung zu stellen.
+
+Das Wiki bil­det das zen­trale Ver­zeich­nis für doku­men­tierte Infor­matio­nen in ande­ren Werk­zeu­gen, z.B. Spezifi­katio­nen in einem Git-Reposi­tory, Test­pläne in einem Test­manage­ment­system oder Normen, Richt­linien, Ver­ord­nun­gen, die für das Pro­dukt rele­vant sind, in einem Doku­men­ten­manage­ment­system.
+****
+
+Den Baustein <<Topic>> will Moritz nutzen, um die Vision des Reise-Butlers zu strukturieren.
+Wichtige Randbedingungen wie die Beschränkung auf Android und iOS erfasst er mit dem Baustein <<Decision>>.
+Ganz wichtig ist ihm ein Glossar.
+Er will sich so ganz früh auf eindeutige Begriffe festlegen, die ihm wichtig sind.
+
+.Der Bau­stein Decision wird ver­wendet, um konse­quent alle funda­menta­len tech­nischen Ent­scheidungen oder vom Auf­trag­geber gefor­derten Quali­täts­merkmale, deren Rück­nahme bzw. Ver­änderung große Aus­wirkung auf das Pro­dukt haben, zu doku­men­tieren.
+****
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+****
 
-Keep on going 😀, grinning face.
+== Domänensprache
 
-When you're feeling a bit 😕, go take a walk.
+Nach der Einrichtung des Bereiches für die Produktdokumentation des Reise-Butlers in _Confluence_ beginnt Moritz mit dem Glossar, einem wichtigen Qualitätsmerkmal von `cards+`.
+Moritz fängt mit den of-fensichtlichen Begriffen an.
+Beim Reise-Butler geht es um eine Reise.
+Klar.
+Für jeden Begriff legt er eine Seite im Glossar an.
+Als Vorlage nutzt er den Baustein <<Term>>.
+Er schreibt sofort mindestens einen Satz dazu.
+Um die Beschreibungen kompakt zu halten, verknüpft er die Begriffe miteinander.
+Dadurch kann er die einzelnen Beschreibungen auf das Wesentliche beschränken.
+Er braucht nicht jeden Begriff, den er erwähnt, immer wieder aufs Neue erklären.
+Mit diesem Vorgehen vermeidet er mehrfache Beschreibungen eines Begriffes.
+Er bleibt konsistent in seiner Beschreibung.
 
-Very good 👍, thumbs up!
+[abstract]
+«Ist der Nutzer der App ein Reisender, Fahrgast oder Passagier?», fragt er sich.
 
-How bad 👎, thumbs down!
+Moritz entscheidet sich für Fahrgast.
+Er lässt sich besser vom Begriff Reise unterscheiden, hat einen Bezug zu Fahrplan bzw. Fahrt und ist nach seinem Empfinden nicht so sperrig wie Passagier.
 
-=== Fette Schrift
+.Seite Fahrgast
+====
+#tbd# Bild
+====
 
-*Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.*
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, *sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat*, sed diam voluptua.
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Die Erklärung besteht gerade mal aus zwei Sätzen.
+In diesen zwei Sätzen stecken aber eine ganze Reihe weiterer Begriffe:
+Fahrzeug, Verkehrsmittel, Personal, Verkehrsunternehmen.
+Beim Schreiben stellt er fest, dass es gar nicht so einfach ist, jeden Begriff prägnant und korrekt zu beschreiben.
+Viele Begriffe haben mehr als eine Bedeutung.
+Für den Begriff Fahrgast gibt es zwei weitere Begriffe:
+Passagier und Reisender.
+Moritz will aber eindeutige Begriffe.
+Für die Begriffe Passagier und Reisender legt er deshalb keine Seite an.
+Stattdessen trägt er die Begriffe zusätzlich zum Hauptbegriff Fahrgast als Stichworte in der Seite ein.
 
-=== Kursive Schrift
+Ein wichtiges Ziel des Glossars ist es, Klarheit in die Begriffe zu bringen.
+Das Glossar baut er so auf, dass es für jeden Buchstaben im Alphabet eine eigene Seite gibt.
+Die beiden Buchstaben X und Y fasst er zusammen.
+Begriffe, die mit einer Ziffer beginnen, fasst er ebenfalls zusammen.
+Jeder dieser Übersichtsseiten zeigt eine Liste aller Begriffe, die diesen Anfangsbuchstaben haben.
+Damit findet jeder Leser schnell heraus, ob es überhaupt den Begriff im Glossar gibt, den er sucht.
 
-_Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua_.
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, _sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat_, sed diam voluptua.
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Schnell stellt Moritz fest, dass _Confluence_ bei der Eingabe von Links so gewisse Tücken hat.
+Durch _Copy&Paste_ aus der Leseansicht heraus werden Verknüpfungen zu externen Web-Links, um nur ein Problem zu nennen.
+Das ist nicht gut.
+Zum Abschluss der Bearbeitung einer Seite wirft Moritz darum immer einen kurzen Blick auf die Seiteninformation.
+Er prüft, ob alle Links in dieser Seite plausibel sind.
 
-=== Proportionale Schrift
+.Seiteninformation Fahrgast
+====
+#tbd# Bild
+====
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+Diese kleine Aufmerksamkeit kostet ihn nur wenig Zeit.
+Sie hilft aber, die Qualität der Seite zu erhöhen.
+Die Startseite des Glossars enthält darum eine schrittweisen Anleitung für das Anlegen neuer Begriffe und weitere wichtige Hinweise für die Pflege der Seiten.
+Außerdem bietet die Startseite eine Suche beschränkt auf diesen Bereich. 
+Die Aktivitäten im Glossar werden durch die Anzeige der zuletzt geänderten Begriffe sichtbar.
 
- At vero eos et accusam et justo duo dolores et ea rebum.
- Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
- Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+.Startseite für das Glossar
+====
+#tbd# Bild
+====
 
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Suchen ist bereits Teil unserer Kultur.
+Nicht ohne Grund ist «googeln» der Begriff für eine Suche oder Recherche im Internet.
+Was liegt also näher, als diese Idee auch im Wiki umzusetzen.
+ 
+.Volltextsuche im Glossar
+====
+#tbd# Bild
+====
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-At `vero-eo-set` accusam `*et-jus-to*` lorem `_et-dolo-res_` lorem `*_et-re-bum_*`.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Die Suche nach Stichworten ist wesentlich exakter als die Volltextsuche.
+Stichworte lassen sich kombinieren.
+So lässt sich schrittweise das Suchergebnisse verfeinern.
+ 
+.Stichwortsuche im Glossar
+====
+#tbd# Bild
+====
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-At ``vero-``eo-set accusam ``**et-jus-**``to lorem ``__et-dolo-__``res lorem ``**__et-re-__**``bum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Im Verlauf der weiteren Analyse wird Moritz die Begriffe noch weiter verfeinern, manche sogar in ihrer Bedeutung schärfen.
+Er ist überzeugt, dass eindeutige Begriffe wichtig sind.
+Sie führen zu einer gemeinsamen Domänensprache.
+Konsequent eingesetzt hilft das Glossar, Widersprüche in den Bausteinen der Systembeschreibung zu erkennen.
+Das ist gut für die Qualität der Dokumentation.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-At vero-eo-``set`` accusam et-jus-``**to**`` lorem et-dolo-``__res__`` lorem et-re-``**__bum__**``.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-At vero-``eo-``set accusam et-``**jus-**``to lorem et-``__dolo-__``res lorem et-``**__re-__**``bum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-.Lorem ipsum
-----
-At vero eos et accusam et justo duo dolores et ea rebum.
-----
-
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-----
-At vero eos et accusam et justo duo dolores et ea rebum.
-----
-
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-=== Hochgestellt
-
-^Lorem&nbsp;ipsum^ dolor sit amet, ^conse^tetur sadipscing elitr, sed diam ^nonumy^ eirmod tempor invidunt ut labore et dolore magna aliqu^yam^ erat, sed diam vo^lup^tua.
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-=== Tiefgestellt
-
-~Lorem&nbsp;ipsum~ dolor sit amet, ~conse~tetur sadipscing elitr, sed diam ~nonumy~ eirmod tempor invidunt ut labore et dolore magna aliqu~yam~ erat, sed diam vo~lup~tua.
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+.Der Bau­stein Term reali­siert das Kon­zept für ein Glos­sar. Mit dem Bau­stein wird ein wich­tiger Begriff der Anwen­dungs­domäne, in der die Soft­­ware zum Ein­­satz kommt, zen­­tral und ver­­link­­bar im Glossar er­fasst.
+****
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-=== Vergrößert
-
-Lorem ipsum [big]#dolor# sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-[big]#At vero eos et accusam et justo duo dolores et ea rebum.#
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-=== Verkleinert
-
-Lorem ipsum [small]#dolor# sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-[small]#At vero eos et accusam et justo duo dolores et ea rebum.#
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+****
