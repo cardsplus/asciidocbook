@@ -16,6 +16,34 @@ Qualität und Produktivität sinkt.
 Anpassungen und Erweiterungen der Software werden schwieriger.
 Es ist nicht klar, was die Software jetzt schon leistet.
 Die Innovationskraft der Organisation sinkt.
+
+Dokumentation ist wichtig und (eigentlich) Pflicht.
+Abhängig von der Projektorganisation und dem gewählten Vorgehen - phasen-orientiert, iterativ oder agil - schreiben Projektmitarbeiter verschiedener technischer Disziplinen im Laufe der Zeit eine ganze Reihe dokumentierter Informationen:
+
+* Die Nutzer der Software benötigen Handbücher, Trainingsunterlagen und Online-Hilfen, um die Software verwenden zu können.
+
+* Die Betriebsorganisation braucht Anleitungen für Einführung und Betrieb der Software und Handlungsanweisungen für die Behebung von Störungen.
+
+* Produktverantwortliche brauchen eine Systembeschreibung für sein Anforderungsmanagement.
+In einem agilen Entwicklungsprozess schreiben sie _User Stories_ in einem _Product Backlog_. 
+
+* Produktverantwortliche müssen den Architekturentwurf für das System kennen.
+Er muss Kosten für den Betrieb und den Einsatz von Technologien gegenüber dem Auftraggeber begründen können.
+Selbst wenn ein Auftraggeber akzeptiert, dass eine Software-Architektur »einfach so« entsteht, sollten die fundamentalen Entscheidungen und grundlegenden Konzepte dann doch dokumentiert werden.
+
+* Entwickler kommentieren ihren Code.
+Sie schreiben Spezifikationen. Oft nutzen sie UML-Diagramme, um Zusammenhänge darzustellen.
+Sie tun das in der Regel für sich und andere Entwickler im Team.
+
+An dokumentierten Informationen mangelt es in den meisten Projekten daher nicht.
+
+[[_sw_digital_transformation]]
+=== Digitale Transformation
+
+Die Digi­tale Trans­for­mation braucht Wissens­manage­ment.
+Unter­nehmen brau­chen das Wissen ihrer Be­schäf­tig­ten.
+Wissen muss be­wahrt und ge­teilt wer­den. Wissens­inseln sind ein Risi­ko in jeder Orga­nisation.
+Viel Wissen steckt auch in Soft­ware.
 Agile Soft­ware-Ent­wick­lung ist darum Teil der digi­talen Trans­for­mation in vielen Unter­neh­men.
 Dabei kommt es aber nicht nur darauf an, agil vor­zu­gehen, son­dern gene­rell flexi­bel zu sein.
 Agili­tät wird häu­fig in einem Atem­zug mit Ge­schwin­dig­keit oder Effi­zienz ge­nannt.
@@ -25,48 +53,38 @@ Es gibt die einen, die auf Doku­men­tation ver­zich­ten wollen.
 [abstract]
 »Code und Test­pläne reichen!« sagen sie.
 
-Sie sagen, auf Dokumentation kann in agilen Projekten sogar verzichtet werden und berufen sich dabei auf Punkt 2 im Manifest für agile Software-Entwicklung:
-
-[abstract]
-»Wir schätzen funktionierende Software mehr als umfassende Dokumentation.«
-
-Sie vergessen dabei, dass es im Manifest ganz klar heißt, dass beide Werte wichtig sind, wir aber den Wert auf der linken Seite höher einschätzen.
 Andere wollen wiede­rum alles ganz genau auf­schrei­ben.
 
 [abstract]
 »Wissen darf nicht ver­loren gehen!« for­dern sie.
 
-Dokumentation ist wichtig und (eigentlich) Pflicht.
-Abhängig von der Projektorganisation und dem gewählten Vorgehen - phasen-orientiert, iterativ oder agil - schreiben Projektmitarbeiter verschiedener technischer Disziplinen im Laufe der Zeit eine ganze Reihe dokumentierter Informationen:
+In diesem Span­nungs­­­­feld bewegt sich `cards+`.
+Eine agile Orga­nisation schätzt funktio­nierende Soft­ware.
+Lang­fristig betrach­tet braucht sie auch eine ange­messene Doku­men­tation für die Soft­ware.
+Mit `cards+` sind beide Ziele von Anfang an erreich­bar.
+Soft­ware und Doku­men­tation wird Hand in Hand inkre­men­tell ent­wickelt.
 
-* Die Nutzer der Software benötigen Handbücher, Trainingsunterlagen und Online-Hilfen, um die Software verwenden zu können.
-
-* Die Betriebsorganisation braucht Anleitungen für Einführung und Betrieb der Software und Handlungsanweisungen für die Behebung von Störungen.
-
-* Produktverantwortliche braucht eine Systembeschreibung für sein Anforderungsmanagement.
-In einem agilen Entwicklungsprozess schreiben sie _User Stories_ in einem _Product Backlog_. 
-
-* Produktverantwortliche muss den Architekturentwurf für das System kennen.
-Er muss Kosten für den Betrieb und den Einsatz von Technologien gegenüber dem Auftraggeber begründen können.
-Selbst wenn ein Auftraggeber akzeptiert, dass eine Software-Architektur »einfach so« entsteht, sollten die fundamentalen Entscheidungen und grundlegenden Konzepte dann doch dokumentiert werden.
-
-* Entwickler kommentieren ihren Code. Sie schreiben Spezifikationen. Oft nutzen sie UML-Diagramme, um Zusammenhänge darzustellen. Sie tun das in der Regel für sich und andere Entwickler im Team.
-
-An dokumentierten Informationen mangelt es in den meisten Projekten daher nicht.
-
-[[_sw_digital]]
-=== Digitale Transformation
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-[[_sw_agile]]
+[[_sw_agile_development]]
 === Agile Software-Entwicklung
 
+Der An­satz agiler Software-Entwicklung ist empi­risch, inkre­men­tell und itera­tiv.
+Schritt für Schritt wird ihr Team besser und schneller.
+Selbst­organi­siert.
+Maxi­mal Moti­viert.
+Der Fokus liegt auf Quali­tät und Exzel­lenz.
+In kur­zen Zyk­len entstehen kunden­wirk­same Inkre­mente.
+
+Mit dem Ein­satz von `cards+` ist jede agile Pro­jekt­organi­sation in der Lage, ziel­gerich­tet und itera­tiv eine Pro­dukt­doku­men­tation zu ent­wickeln.
+Ziel­gerich­tet bedeu­tet, dass die erstell­ten Doku­mente einen Wert für die Organi­sation hat.
+Itera­tiv bedeu­tet fort­laufende Wieder­holung, ver­bun­den mit der Chance, sich Schritt für Schritt zu ver­bessern.
+Dokumentieren wird zur Routine.
+Mit dem Fort­schritt in der Ent­wick­lung der Soft­ware wächst auch die Pro­dukt­doku­men­tation, als inte­gra­ler Bestand­teil des Pro­dukt­inkre­men­tes.
+Doku­men­tieren wird zur leist­baren Auf­gabe des gesam­ten Teams.
+Die Doku­men­tation wird prüf­bar, die Quali­tät mess­bar.
+
+[[_ddd_strategic_design]]
+=== Strate­gisches Design
+
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -74,8 +92,8 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-[[_ddd_design]]
-=== Strate­gisches und takt­isches Design
+[[_ddd_tactical_design]]
+=== Takt­isches Design
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 At vero eos et accusam et justo duo dolores et ea rebum.
@@ -84,7 +102,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-[[_ddd_lang]]
+[[_ddd_ubiquitouous_lang]]
 === Gemeinsame Sprache
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -94,7 +112,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-[[_sw_quality]]
+[[_sw_quality_policy]]
 === Qualitätspolitik
 
 Quali­täts­poli­tik kennen wir aus dem Sprach­gebrauch der <<ISO-9001>>.
