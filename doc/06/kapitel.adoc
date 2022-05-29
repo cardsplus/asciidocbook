@@ -55,7 +55,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 .PlantUML
 [plantuml,plantClass,png]
 ....
-!pragma graphviz_dot jdot
+!pragma layout smetana
 class BlockProcessor
 class DiagramBlock
 class DitaaBlock

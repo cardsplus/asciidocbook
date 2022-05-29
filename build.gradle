@@ -5,10 +5,10 @@
 
 plugins {
     id 'base'
-    id "com.palantir.git-version" version "0.12.3"
-    id "org.asciidoctor.jvm.convert" version "3.2.0"
-    id 'org.asciidoctor.jvm.pdf' version '3.2.0'
-    id 'org.asciidoctor.jvm.gems' version '3.2.0'
+    id "com.palantir.git-version" version "0.15.0"
+    id "org.asciidoctor.jvm.convert" version "3.3.2"
+    id 'org.asciidoctor.jvm.pdf' version '3.3.2'
+    id 'org.asciidoctor.jvm.gems' version '3.3.2'
 }
 
 description = 'cards+ asciidoc book'
@@ -20,7 +20,7 @@ repositories {
 }
 
 dependencies {
-  asciidoctorGems 'rubygems:rouge:3.22.0'
+  asciidoctorGems 'rubygems:rouge:3.28.0'
 }
 
 // tag::adoc[]
@@ -29,10 +29,10 @@ asciidoctorj {
   requires file('src/main/ruby/glob-include-processor.rb')
   modules {
     diagram { 
-      version '2.0.2'
+      version '2.2.1'
     }
     pdf { 
-      version '1.5.3'
+      version '1.6.2'
     }
   }
   logLevel 'INFO'
