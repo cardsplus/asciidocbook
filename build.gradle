@@ -20,7 +20,7 @@ repositories {
 }
 
 dependencies {
-  asciidoctorGems 'rubygems:rouge:3.28.0'
+  asciidoctorGems 'rubygems:rouge:3.30.0'
 }
 
 // tag::adoc[]
@@ -29,10 +29,10 @@ asciidoctorj {
   requires file('src/main/ruby/glob-include-processor.rb')
   modules {
     diagram { 
-      version '2.2.1'
+      version '2.2.3'
     }
     pdf { 
-      version '1.6.2'
+      version '2.3.3'
     }
   }
   logLevel 'INFO'
