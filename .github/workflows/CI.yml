@@ -1,46 +1,32 @@
-# https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-gradle
+# https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#name
+name: build
 
-name: CI
+# https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
+on: [push]
 
-on:
-  push:
-    branches: [ master ]
-
+# https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobs
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # https://github.com/actions/checkout
+      - uses: actions/checkout@v3
 
-    # https://github.com/actions/checkout
-    - name: Set up git
-      uses: actions/checkout@v2
+      # https://github.com/actions/setup-java
+      # https://github.com/actions/cache
+      - uses: actions/setup-java@v3
+        with:
+          distribution: "temurin"
+          java-version: "11"
+          cache: "gradle"
 
-    # https://github.com/actions/setup-java
-    - name: Set up java
-      uses: actions/setup-java@v1
-      with:
-        java-version: 11
-
-    # https://github.com/actions/cache
-    - name: Set up cache
-      uses: actions/cache@v2
-      with:
-        path: |
-          .gradle
-          build
-        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
-        restore-keys: ${{ runner.os }}-gradle
-
-    # https://github.com/gradle/gradle
-    - name: Build with Gradle
-      env:
-        JAVA_OPTS: '-Dorg.gradle.daemon=false'
-        GRADLE_USER_HOME: .gradle
-      run: chmod +x gradlew && ./gradlew build
-
-    # https://github.com/peaceiris/actions-gh-pages
-    - name: Deploy preview
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir:  pages
+      # https://github.com/gradle/gradle
+      - run: chmod +x gradlew
+      - run: ./gradlew build
+      
+      # https://github.com/peaceiris/actions-gh-pages
+      - if: ${{ github.ref == 'refs/heads/master' }}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: pages
